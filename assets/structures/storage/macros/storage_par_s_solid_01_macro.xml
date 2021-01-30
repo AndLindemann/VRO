@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<macros>
+  <macro name="storage_par_s_solid_01_macro" class="storage">
+    <component ref="storage_par_s_solid_01" />
+    <properties>
+      <identification name="{20104,22401}" shortname="{20104,22403}" makerrace="paranid" size="small" description="{20104,22402}" />
+      <cargo max="100000" tags="solid" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+          <set ref="piratebase" />
+        </sets>
+      </build>
+      <explosiondamage value="5000" />
+      <hull max="133000" />
+      <secrecy level="1" />
+    </properties>
+  </macro>
+</macros>-->
+<diff>
+<replace sel="//cargo/@max">150000</replace>
+</diff>

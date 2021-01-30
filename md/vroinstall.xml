@@ -12,8 +12,7 @@
         </check_any>
       </conditions>
       <actions>
-         <show_help duration="10s" custom="'VRO 2.3 installed.'"/>
-         <show_help duration="10s" custom="'Please visit Egosoft forum mod thread for mod description and latest VRO patchnotes.'"/>
+         <show_help duration="1s" custom="'VRO 2.3 installed.'"/>
       </actions>
       <!-- if a cue is running that has a version like sinceversion or older then the patch will be applied -->
       <patch sinceversion="8">
@@ -203,10 +202,8 @@
               <set_value name="$Warescontainer" exact="$vro_ishield_ware_list.{$i}.objectmacro" />
               <add_encyclopedia_entry type="shieldgentypes" item="$Warescontainer.id" />
             </do_all>
-            <show_help duration="10s" custom="'VRO - internal shield generators info added/updated in encyclopedia.'"/>
           </actions>
         </cue>
-
       </cues>
     </cue>
 </cues>

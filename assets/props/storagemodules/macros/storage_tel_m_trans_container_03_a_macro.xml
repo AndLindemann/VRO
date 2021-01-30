@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<macros>
+  <macro name="storage_tel_m_trans_container_03_a_macro" class="storage">
+    <component ref="generic_storage" />
+    <properties>
+      <identification makerrace="teladi" />
+      <cargo max="7900" tags="container" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>-->
+<diff>
+<replace sel="//cargo/@max">11850</replace>
+</diff>

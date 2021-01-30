@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<macros>
+  <macro name="storage_spl_l_miner_liquid_01_a_macro" class="storage">
+    <component ref="generic_storage" />
+    <properties>
+      <identification makerrace="split" />
+      <cargo max="22000" tags="liquid" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>-->
+<diff>
+<replace sel="//cargo/@max">33000</replace>
+</diff>
