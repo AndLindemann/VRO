@@ -35,8 +35,6 @@
 						<remove_value name="$Station" />
 						<remove_value name="$delayalpha" />
 						<debug_to_file name="'Find_Fill_Stations'" directory="'VRO_Fill'" text="'%1'.[$DebugGroup]" output="false" append="true" />
-						<!-- recommend a show help here to say when processing is done -->
-						<show_help duration="20s" custom="'VRO - Xenon warfs and shipyards received resources from their Xenon gods to fix mistakes of the past. (one-time action)'"/>
 					</actions>
 				</cue>
 				<library name="ProcessWares">

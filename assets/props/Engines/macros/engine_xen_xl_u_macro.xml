@@ -6,7 +6,7 @@
     <properties>
       <identification name="{20107,4034}" basename="{20107,4031}" shortname="{20107,4035}" makerrace="xenon" description="{20107,4032}" />
       <!-- <boost duration="33" thrust="2" attack="10" release="1" /> -->
-      <travel charge="30" thrust="22" attack="25" release="25" />
+      <travel charge="30" thrust="14.6" attack="25" release="25" />
       <thrust forward="24979" reverse="22481" />
       <angular />
       <hull max="550386" threshold="0.1" />
