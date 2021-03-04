@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diff>
-<replace sel="//parameters/lowattentioncombat"> 
-  <lowattentioncombat>
-    <attack hitchance="0.7" missmultiplier="0.5" firingarea="36000000" laserweaponfactor="0.55" missileweaponfactor="0.8" turretfactor="0.55" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="60" surfaceelementchance="0.15" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9" />
-    <defence maneouverfactor="0.6" minspeed="180" maxsize="400.0" sizefactor="0.7" capshipfactor="1.0" countermeasurefactor="0.7" dronedistractionfactor="0.002" dronedamageamount="20000"/>
-  </lowattentioncombat>
-</replace>
-</diff> 
+	<replace sel="//parameters/lowattentioncombat">
+		<lowattentioncombat>
+			<attack hitchance="0.7" missmultiplier="0.5" firingarea="36000000" laserweaponfactor="0.55" missileweaponfactor="0.8" turretfactor="0.55" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="60" surfaceelementchance="0.15" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9"/>
+			<defence maneouverfactor="0.6" minspeed="180" maxsize="400.0" sizefactor="0.7" capshipfactor="1.0" countermeasurefactor="0.7" dronedistractionfactor="0.002" dronedamageamount="20000"/>
+		</lowattentioncombat>
+	</replace>
+</diff>
 <!-- 3.00b6:
   - reduced surfaceelementchance to mitigate loss of surface elements to more closely match high attention,
 	  but this effectively decreases the time taken to destroy hulls due to surface elements effectively soaking up damage much less.
