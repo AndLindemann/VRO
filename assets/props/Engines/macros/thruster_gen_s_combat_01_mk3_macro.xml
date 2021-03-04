@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<macros>
+  <macro name="thruster_gen_s_combat_01_mk3_macro" class="engine">
+    <component ref="thruster_gen_s_combat_01_mk3" />
+    <properties>
+      <identification name="{20107,10074}" basename="{20107,10071}" shortname="{20107,10075}" description="{20107,10072}" unique="0" mk="3" />
+      <component virtual="1" />
+      <thrust strafe="414" pitch="324 x1.2" yaw="153" roll="378 x1.2" />
+      <angular />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>-->
+<diff>
+<replace sel="//properties/thrust"><thrust strafe="414" pitch="388.8" yaw="153" roll="453.6" /></replace>
+</diff>

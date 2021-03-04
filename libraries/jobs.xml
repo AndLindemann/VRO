@@ -16,7 +16,7 @@
 	  </order>
 	</orders>
 	<category faction="argon" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="5" sector="1"/>
+	<quota galaxy="7" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -28,7 +28,9 @@
 	  <owner exact="argon" overridenpc="true"/>
 	</ship>
 	<subordinates>
+	  <subordinate job="argon_destroyer_escort_l"/>
 	  <subordinate job="argon_frigate_escort_m"/>
+	  <subordinate job="argon_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -70,7 +72,7 @@
 	  </order>
 	</orders>
 	<category faction="antigone" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="4" sector="1"/>
+	<quota galaxy="5" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -82,7 +84,9 @@
 	  <owner exact="antigone" overridenpc="true"/>
 	</ship>
 	<subordinates>
+	  <subordinate job="antigone_destroyer_escort_l"/>
 	  <subordinate job="antigone_frigate_escort_m"/>
+	  <subordinate job="antigone_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -100,7 +104,7 @@
 	  </order>
 	</orders>
 	<category faction="paranid" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="5" sector="1"/>
+	<quota galaxy="7" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -112,7 +116,9 @@
 	  <owner exact="paranid" overridenpc="true"/>
 	</ship>
 	<subordinates>
-		<subordinate job="paranid_frigate_escort_m"/>
+	  <subordinate job="paranid_destroyer_escort_l"/>
+	  <subordinate job="paranid_frigate_escort_m"/>
+	  <subordinate job="paranid_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -130,7 +136,7 @@
 	  </order>
 	</orders>
 	<category faction="holyorder" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="2" sector="1"/>
+	<quota galaxy="7" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -142,7 +148,9 @@
 	  <owner exact="holyorder" overridenpc="true"/>
 	</ship>
 	<subordinates>
+	  <subordinate job="holyorder_destroyer_escort_l"/>
 	  <subordinate job="holyorder_frigate_escort_m"/>
+	  <subordinate job="holyorder_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -160,7 +168,7 @@
 	  </order>
 	</orders>
 	<category faction="trinity" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="7" sector="1"/>
+	<quota galaxy="12" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="trinity" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -172,7 +180,9 @@
 	  <owner exact="trinity" overridenpc="true"/>
 	</ship>
 	<subordinates>
-		<subordinate job="trinity_frigate_escort_m"/>
+	  <subordinate job="trinity_destroyer_escort_l_par"/>
+	  <subordinate job="trinity_frigate_escort_m"/>
+	  <subordinate job="trinity_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -188,7 +198,7 @@
 	  </order>
 	</orders>
 	<category faction="teladi" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="6" sector="1"/>
+	<quota galaxy="5" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi, ministry]" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -200,7 +210,9 @@
 	  <owner exact="teladi" overridenpc="true"/>
 	</ship>
 	<subordinates>
+	  <subordinate job="teladi_destroyer_escort_l"/>
 	  <subordinate job="teladi_frigate_escort_m"/>
+	  <subordinate job="teladi_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -222,7 +234,7 @@
 	  </order>
 	</orders>
 	<category faction="split" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="1" maxgalaxy="3" sector="1"/>
+	<quota galaxy="9" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="split" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -234,8 +246,9 @@
 	  <owner exact="split" overridenpc="true"/>
 	</ship>
 	<subordinates>
-	  <subordinate job="zyarth_corvette_escort_m"/>
-	  <subordinate job="zyarth_fighter_escort_s_patrol"/>
+	  <subordinate job="zyarth_destroyer_escort_l_noescort"/>
+	  <subordinate job="zyarth_frigate_escort_m"/>
+	  <subordinate job="zyarth_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -250,7 +263,7 @@
 	  </order>
 	</orders>
 	<category faction="court" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="1" maxgalaxy="4" sector="1"/>
+	<quota galaxy="9" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="[court, freesplit]" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -262,8 +275,9 @@
 	  <owner exact="court" overridenpc="true"/>
 	</ship>
 	<subordinates>
-	  <subordinate job="court_corvette_escort_m"/>
-	  <subordinate job="court_fighter_escort_s_patrol"/>
+	  <subordinate job="court_destroyer_escort_l_noescort"/>
+	  <subordinate job="court_frigate_escort_m"/>
+	  <subordinate job="court_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 	
@@ -285,7 +299,7 @@
 	  </order>
 	</orders>
 	<category faction="ministry" tags="[factionlogic, military, battleship]" size="ship_xl"/>
-	<quota galaxy="5" sector="1"/>
+	<quota galaxy="5" cluster="1"/>
 	<location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi, ministry]" relation="self" comparison="exact" matchextension="false"/>
 	<environment buildatshipyard="true"/>
 	<ship>
@@ -297,7 +311,9 @@
 	  <owner exact="ministry" overridenpc="true"/>
 	</ship>
 	<subordinates>
+	  <subordinate job="ministry_destroyer_escort_l"/>
 	  <subordinate job="ministry_frigate_escort_m"/>
+	  <subordinate job="ministry_fighter_escort_s_frigate"/>
 	</subordinates>
   </job>
 
@@ -340,7 +356,7 @@
       </order>
     </orders>
     <category faction="xenon" tags="[military, fighter]" size="ship_s"/>
-    <quota wing="10" />
+    <quota wing="15" />
     <location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false" />
     <environment buildatshipyard="true"/>
     <modifiers subordinate="true"/>
@@ -350,1264 +366,4 @@
     </ship>
   </job>
 </add>
-<!-- Changes to loadout levels -->
-<!-- L/XL use 1.0 variation 0.0-0.4 -->
-<!-- S/M use 0.5-1.0 variation 0.0-0.4 -->
-<!-- arg -->
-<replace sel="//job[@id='argon_carrier_patrol_xl_center_galaxy']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_destroyer_patrol_l_sector']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_frigate_patrol_m_sector_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_frigate_patrol_m_sector_exp_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_patrol_s_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- ant -->
-<replace sel="//job[@id='antigone_destroyer_patrol_l_border_sector']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_frigate_patrol_m_sector_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_frigate_patrol_m_sector_exp_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_fighter_patrol_s_border_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='antigone_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- par -->
-<replace sel="//job[@id='paranid_carrier_patrol_xl_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_destroyer_patrol_l_sector_exp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_patrol_s_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_corvette_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_corvette_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- hop -->
-<replace sel="//job[@id='holyorder_destroyer_patrol_l_cluster_exp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_fighter_patrol_s_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_corvette_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_corvette_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_corvette_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='holyorder_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- tri -->
-<replace sel="//job[@id='trinity_carrier_patrol_xl_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_patrol_l_sector_exp_par']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_patrol_l_cluster_exp_hop']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_patrol_s_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_par']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_par_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_hop']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_hop_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_escort_l_par']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_destroyer_escort_l_hop']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- tel -->
-<replace sel="//job[@id='teladi_carrier_patrol_xl_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_destroyer_patrol_l_border_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_patrol_s_zone_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_patrol_s_zone_exp_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='teladi_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- min -->
-<replace sel="//job[@id='ministry_destroyer_patrol_l_border']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_destroyer_patrol_l_border2']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_frigate_police_patrol_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_dronecarrier_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_dronecarrier_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_destroyer_escort_l_reinforced']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='ministry_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- hat -->
-<replace sel="//job[@id='hatikvah_plunderer_l_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='hatikvah_scavenger_m_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='hatikvah_fighter_escort_s_miningfleet']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- sca -->
-<replace sel="//job[@id='scaleplate_plunderer_l_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='scaleplate_plunderer_l_cluster_reduced']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='scaleplate_scavenger_m_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='scaleplate_plunderer_m_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- buc -->
-<replace sel="//job[@id='buc_guerilla_m_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_guerilla_infiltrator_s_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_guerilla_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_guerilla_escort_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_carrier_patrol_xl_cluster']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_scout_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_destroyer_escort_l']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_fighter_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='buc_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- spl -->
-<replace sel="//job[@id='zyarth_carrier_patrol_xl_center']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_carrier_patrol_xl_familyzhin']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_destroyer_patrol_l_border_sector']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_destroyer_patrol_l_comp']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_destroyer_patrol_l_comp_mission']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_frigate_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_frigate_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_corvette_patrol_m_sector_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_corvette_patrol_m_sector_exp_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_patrol_s_border_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_patrol_s_border_zone_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_scout_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_destroyer_patrol_l_border_sector_colonial']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_frigate_patrol_m_sector_colonial']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_frigate_patrol_m_sector_colonial_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_corvette_patrol_m_sector_colonial_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_corvette_patrol_m_sector_colonial_exp_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_patrol_s_border_zone_colonial']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_destroyer_escort_l_noescort']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_corvette_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_escort_m_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='zyarth_fighter_escort_s_carrier_wing']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- CAB -->
-<replace sel="//job[@id='court_carrier_patrol_xl_center']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_destroyer_patrol_l_border_sector']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_destroyer_patrol_l_defeated']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_frigate_patrol_m_sector']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_frigate_patrol_m_sector_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_corvette_patrol_m_sector_exp']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_corvette_patrol_m_sector_defeated']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_fighter_patrol_s_border_zone']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_fighter_patrol_s_border_zone_defeated']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_police_patrol_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_resupplier_escort_xl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_destroyer_escort_l_noescort']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_frigate_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_corvette_escort_m']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_fighter_escort_s_frigate']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_fighter_escort_s_patrol']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_escort_m_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_escort_s_carrier']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='court_fighter_escort_s_carrier_wing']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- FRF -->
-<replace sel="//job[@id='freesplit_marauder_mixed_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='freesplit_scavenger_m_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='freesplit_fighter_escort_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- FAF -->
-<replace sel="//job[@id='fallensplit_raider_mixed_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='fallensplit_marauder_mixed_cluster']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='fallensplit_fighter_escort_s']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='fallensplit_fighter_escort_s_escort']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- ARG SPL -->
-<replace sel="//job[@id='argon_destroyer_patrol_l_sector_spl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_frigate_patrol_m_sector_exp_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_frigate_patrol_m_sector_exp_spl_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_dronecarrier_patrol_m_sector_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_dronecarrier_patrol_m_sector_spl_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='argon_fighter_patrol_s_zone_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- PAR SPL -->
-<replace sel="//job[@id='paranid_carrier_patrol_xl_cluster_spl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_corvette_patrol_m_sector_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_corvette_patrol_m_sector_spl_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='paranid_fighter_patrol_s_zone_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- TRI SPL -->
-<replace sel="//job[@id='trinity_carrier_patrol_xl_cluster_spl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_corvette_patrol_m_sector_spl_mission']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<replace sel="//job[@id='trinity_fighter_patrol_s_zone_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- MIN SPL -->
-<replace sel="//job[@id='ministry_destroyer_patrol_l_spl']/ship/loadout">
-      <loadout>
-        <level exact="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-<!-- TEL SPL -->
-<replace sel="//job[@id='teladi_fighter_patrol_s_zone_exp_spl']/ship/loadout">
-      <loadout>
-        <level min="0.5" max="1.0"/>
-		<variation min="0.0" max="0.4"/>
-      </loadout>
-</replace>
-
-<!-- TODO: Activation of TRI/CAB jobs in story md -->
 </diff>
