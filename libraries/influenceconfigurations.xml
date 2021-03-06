@@ -1,54 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<add sel="/influencelistconfigurations">
-		<influencelist name="interdictor_missile">
-			<influences>
-				<influence type="disabletravel">
-					<profile type="continuous" duration="60"/>
-				</influence>
-			</influences>
-		</influencelist>
-		<influencelist name="ion_light_effect">
-			<influences>
-				<influence type="disableboost">
-					<profile type="continuous" duration="4"/>
-				</influence>
-				<influence type="disabletravel">
-					<profile type="continuous" duration="4"/>
-				</influence>
-				<!-- disallow movement for a longer time -->
-				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4"/>
-				</influence>
-				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4"/>
-				</influence>
-				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4"/>
-				</influence>
-			</influences>
-		</influencelist>
-		<influencelist name="ion_pulse_effect">
-			<influences>
-				<influence type="disableboost">
-					<profile type="continuous" duration="6"/>
-				</influence>
-				<influence type="disabletravel">
-					<profile type="continuous" duration="10"/>
-				</influence>
-				<!-- disallow movement for a longer time -->
-				<influence type="maxforwardspeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10"/>
-				</influence>
-				<influence type="maxreversespeed">
-					<profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10"/>
-				</influence>
-				<influence type="steeringacceleration">
-					<profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10"/>
-				</influence>
-			</influences>
-		</influencelist>
-	</add>
+<add sel="/influencelistconfigurations"> 
+
+ <influencelist name="interdictor_missile">
+    <influences>
+        <influence type="disabletravel">
+        <profile type="continuous" duration="60" />
+      </influence>
+    </influences>
+  </influencelist>
+
+  <influencelist name="ion_light_effect">
+    <influences>
+      <influence type="disableboost">
+        <profile type="continuous" duration="4" />
+      </influence>
+      <influence type="disabletravel">
+        <profile type="continuous" duration="4" />
+      </influence>
+      <!-- disallow movement for a longer time -->
+      <influence type="maxforwardspeed">
+        <profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4" />
+      </influence>
+      <influence type="maxreversespeed">
+        <profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4" />
+      </influence>
+      <influence type="steeringacceleration">
+        <profile type="envelope" startvalue="1" sustainvalue="0.95" endvalue="1" attackduration="3" sustainduration="2" releaseduration="4" />
+      </influence>
+    </influences>
+  </influencelist>
+
+  <influencelist name="ion_pulse_effect">
+    <influences>
+      <influence type="disableboost">
+        <profile type="continuous" duration="6" />
+      </influence>
+      <influence type="disabletravel">
+        <profile type="continuous" duration="10" />
+      </influence>
+      <!-- disallow movement for a longer time -->
+      <influence type="maxforwardspeed">
+        <profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10" />
+      </influence>
+      <influence type="maxreversespeed">
+        <profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10" />
+      </influence>
+      <influence type="steeringacceleration">
+        <profile type="envelope" startvalue="1" sustainvalue="0.89" endvalue="1" attackduration="3" sustainduration="6" releaseduration="10" />
+      </influence>
+    </influences>
+  </influencelist>
+
+</add>
 </diff>
 <!--Other influences-->
 <!-- 
