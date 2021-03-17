@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="vro_lite" name="Variety and Rebalance Overhaul Lite" description="VRO branch by deadair" author="Shuul" version="300" date="2021-03-16" save="1" enabled="1" sync="false">
+<content id="vro_lite" name="Variety and Rebalance Overhaul Lite" description="VRO branch by deadair" author="Shuul" version="302" date="2021-03-16" save="1" enabled="1" sync="false">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
   <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
   <text language="3" name="Variety and Rebalance Overhaul" description="Variety and Rebalance Overhaul" author="Shuul"/>
