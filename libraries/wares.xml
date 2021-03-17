@@ -4536,6 +4536,11 @@
 		<ware id="ishield_arg_s_fighter_01_a" name="{6699,13001}" description="{6699,13001}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4546,6 +4551,11 @@
 		<ware id="ishield_arg_s_fighter_02_a" name="{6699,13002}" description="{6699,13002}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4556,6 +4566,11 @@
 		<ware id="ishield_arg_s_fighter_03_a" name="{6699,13003}" description="{6699,13003}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_fighter_03_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4566,6 +4581,11 @@
 		<ware id="ishield_arg_s_fighter_04_a" name="{6699,13004}" description="{6699,13004}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_fighter_04_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4576,6 +4596,11 @@
 		<ware id="ishield_arg_s_heavyfighter_02_a" name="{6699,13005}" description="{6699,13005}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_heavyfighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4586,6 +4611,11 @@
 		<ware id="ishield_arg_s_scout_01_a" name="{6699,13006}" description="{6699,13006}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4596,6 +4626,11 @@
 		<ware id="ishield_arg_s_trans_container_01_a" name="{6699,13007}" description="{6699,13007}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4606,6 +4641,11 @@
 		<ware id="ishield_arg_s_trans_container_02_a" name="{6699,13008}" description="{6699,13008}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4616,6 +4656,11 @@
 		<ware id="ishield_arg_s_miner_solid_01_a" name="{6699,13009}" description="{6699,13009}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_s_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4626,6 +4671,11 @@
 		<ware id="ishield_gen_s_fighter_01_a" name="{6699,13010}" description="{6699,13010}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_gen_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4637,6 +4687,11 @@
 		<ware id="ishield_par_s_fighter_01_a" name="{6699,13011}" description="{6699,13011}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4648,6 +4703,11 @@
 		<ware id="ishield_par_s_fighter_02_a" name="{6699,13012}" description="{6699,13012}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4659,6 +4719,11 @@
 		<ware id="ishield_par_s_scout_01_a" name="{6699,13013}" description="{6699,13013}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4670,6 +4735,11 @@
 		<ware id="ishield_par_s_miner_solid_01_a" name="{6699,13014}" description="{6699,13014}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4681,6 +4751,11 @@
 		<ware id="ishield_par_s_trans_container_01_a" name="{6699,13015}" description="{6699,13015}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4692,6 +4767,11 @@
 		<ware id="ishield_tel_s_fighter_01_a" name="{6699,13016}" description="{6699,13016}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4701,6 +4781,11 @@
 		<ware id="ishield_tel_s_fighter_02_a" name="{6699,13017}" description="{6699,13017}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4710,6 +4795,11 @@
 		<ware id="ishield_tel_s_scout_01_a" name="{6699,13018}" description="{6699,13018}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4719,6 +4809,11 @@
 		<ware id="ishield_tel_s_scout_02_a" name="{6699,13019}" description="{6699,13019}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_scout_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4728,6 +4823,11 @@
 		<ware id="ishield_tel_s_miner_solid_01_a" name="{6699,13020}" description="{6699,13020}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4737,6 +4837,11 @@
 		<ware id="ishield_tel_s_trans_container_01_a" name="{6699,13021}" description="{6699,13021}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_s_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4746,6 +4851,11 @@
 		<ware id="ishield_xen_s_fighter_01_a" name="{6699,13022}" description="{6699,13022}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -4753,6 +4863,11 @@
 		<ware id="ishield_xen_s_fighter_02_a" name="{6699,13023}" description="{6699,13023}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -4760,6 +4875,11 @@
 		<ware id="ishield_arg_m_bomber_01_a" name="{6699,13024}" description="{6699,13024}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_bomber_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4770,6 +4890,11 @@
 		<ware id="ishield_arg_m_bomber_02_a" name="{6699,13025}" description="{6699,13025}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_bomber_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4780,6 +4905,11 @@
 		<ware id="ishield_arg_m_frigate_01_a" name="{6699,13026}" description="{6699,13026}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_frigate_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4790,6 +4920,11 @@
 		<ware id="ishield_arg_m_miner_liquid_01_a" name="{6699,13027}" description="{6699,13027}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4800,6 +4935,11 @@
 		<ware id="ishield_arg_m_miner_solid_01_a" name="{6699,13028}" description="{6699,13028}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4810,6 +4950,11 @@
 		<ware id="ishield_arg_m_trans_container_01_a" name="{6699,13029}" description="{6699,13029}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4820,6 +4965,11 @@
 		<ware id="ishield_arg_m_trans_container_02_a" name="{6699,13030}" description="{6699,13030}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_m_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4830,6 +4980,11 @@
 		<ware id="ishield_par_m_corvette_01_a" name="{6699,13031}" description="{6699,13031}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_corvette_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4841,6 +4996,11 @@
 		<ware id="ishield_par_m_frigate_01_a" name="{6699,13032}" description="{6699,13032}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_frigate_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4852,6 +5012,11 @@
 		<ware id="ishield_par_m_miner_liquid_01_a" name="{6699,13033}" description="{6699,13033}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4863,6 +5028,11 @@
 		<ware id="ishield_par_m_miner_solid_01_a" name="{6699,13034}" description="{6699,13034}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4874,6 +5044,11 @@
 		<ware id="ishield_par_m_trans_container_01_a" name="{6699,13035}" description="{6699,13035}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4885,6 +5060,11 @@
 		<ware id="ishield_par_m_trans_container_02_a" name="{6699,13036}" description="{6699,13036}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_m_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -4896,6 +5076,11 @@
 		<ware id="ishield_tel_m_bomber_01_a" name="{6699,13037}" description="{6699,13037}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_bomber_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4905,6 +5090,11 @@
 		<ware id="ishield_tel_m_frigate_01_a" name="{6699,13038}" description="{6699,13038}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_frigate_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4914,6 +5104,11 @@
 		<ware id="ishield_tel_m_miner_liquid_01_a" name="{6699,13039}" description="{6699,13039}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4923,6 +5118,11 @@
 		<ware id="ishield_tel_m_miner_solid_01_a" name="{6699,13040}" description="{6699,13040}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4932,6 +5132,11 @@
 		<ware id="ishield_tel_m_trans_container_01_a" name="{6699,13041}" description="{6699,13041}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4941,6 +5146,11 @@
 		<ware id="ishield_tel_m_trans_container_02_a" name="{6699,13042}" description="{6699,13042}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4950,6 +5160,11 @@
 		<ware id="ishield_tel_m_trans_container_03_a" name="{6699,13043}" description="{6699,13043}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_m_trans_container_03_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -4959,6 +5174,11 @@
 		<ware id="ishield_xen_m_fighter_01_a" name="{6699,13044}" description="{6699,13044}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_m_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -4966,6 +5186,11 @@
 		<ware id="ishield_xen_m_miner_01_a" name="{6699,13045}" description="{6699,13045}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_m_miner_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -4973,6 +5198,11 @@
 		<ware id="ishield_arg_l_centaur_a" name="{6699,13046}" description="{6699,13046}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_centaur_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4983,6 +5213,11 @@
 		<ware id="ishield_arg_l_destroyer_01_a" name="{6699,13047}" description="{6699,13047}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -4993,6 +5228,11 @@
 		<ware id="ishield_arg_l_miner_liquid_01_a" name="{6699,13048}" description="{6699,13048}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5003,6 +5243,11 @@
 		<ware id="ishield_arg_l_miner_solid_01_a" name="{6699,13049}" description="{6699,13049}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5013,6 +5258,11 @@
 		<ware id="ishield_arg_l_trans_container_01_a" name="{6699,13050}" description="{6699,13050}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5023,6 +5273,11 @@
 		<ware id="ishield_arg_l_trans_container_02_a" name="{6699,13051}" description="{6699,13051}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5033,6 +5288,11 @@
 		<ware id="ishield_arg_l_trans_container_03_a" name="{6699,13052}" description="{6699,13052}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_03_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5043,6 +5303,11 @@
 		<ware id="ishield_arg_l_trans_container_04_a" name="{6699,13053}" description="{6699,13053}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_04_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5053,6 +5318,11 @@
 		<ware id="ishield_arg_l_trans_container_05_a" name="{6699,13054}" description="{6699,13054}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_05_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5063,6 +5333,11 @@
 		<ware id="ishield_par_l_destroyer_01_a" name="{6699,13055}" description="{6699,13055}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5074,6 +5349,11 @@
 		<ware id="ishield_par_l_miner_liquid_01_a" name="{6699,13056}" description="{6699,13056}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5085,6 +5365,11 @@
 		<ware id="ishield_par_l_miner_solid_01_a" name="{6699,13057}" description="{6699,13057}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5096,6 +5381,11 @@
 		<ware id="ishield_par_l_trans_container_01_a" name="{6699,13058}" description="{6699,13058}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5107,6 +5397,11 @@
 		<ware id="ishield_par_l_trans_container_02_a" name="{6699,13059}" description="{6699,13059}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5118,6 +5413,11 @@
 		<ware id="ishield_tel_l_destroyer_01_a" name="{6699,13060}" description="{6699,13060}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5127,6 +5427,11 @@
 		<ware id="ishield_tel_l_miner_liquid_01_a" name="{6699,13061}" description="{6699,13061}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5136,6 +5441,11 @@
 		<ware id="ishield_tel_l_miner_solid_01_a" name="{6699,13062}" description="{6699,13062}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5145,6 +5455,11 @@
 		<ware id="ishield_tel_l_trans_container_01_a" name="{6699,13063}" description="{6699,13063}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5154,6 +5469,11 @@
 		<ware id="ishield_tel_l_trans_container_02_a" name="{6699,13064}" description="{6699,13064}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_trans_container_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5163,6 +5483,11 @@
 		<ware id="ishield_arg_xl_builder_01_a" name="{6699,13065}" description="{6699,13065}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_xl_builder_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5186,6 +5511,11 @@
 		<ware id="ishield_arg_xl_carrier_01_a" name="{6699,13066}" description="{6699,13066}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5196,6 +5526,11 @@
 		<ware id="ishield_par_xl_builder_01_a" name="{6699,13067}" description="{6699,13067}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_xl_builder_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5207,6 +5542,11 @@
 		<ware id="ishield_par_xl_carrier_01_a" name="{6699,13068}" description="{6699,13068}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5218,6 +5558,11 @@
 		<ware id="ishield_tel_xl_builder_01_a" name="{6699,13069}" description="{6699,13069}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_xl_builder_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5227,6 +5572,11 @@
 		<ware id="ishield_tel_xl_carrier_01_a" name="{6699,13070}" description="{6699,13070}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5236,6 +5586,11 @@
 		<ware id="ishield_xen_xl_carrier_01_a" name="{6699,13071}" description="{6699,13071}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -5243,6 +5598,11 @@
 		<ware id="ishield_xen_xl_destroyer_01_a" name="{6699,13072}" description="{6699,13072}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_xl_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -5250,6 +5610,11 @@
 		<ware id="ishield_arg_xl_battleship_01" name="{6699,13073}" description="{6699,13073}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_xl_battleship_01_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5260,6 +5625,11 @@
 		<ware id="ishield_par_xl_battleship_01" name="{6699,13074}" description="{6699,13074}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_xl_battleship_01_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5271,6 +5641,11 @@
 		<ware id="ishield_tel_xl_battleship_01" name="{6699,13075}" description="{6699,13075}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_xl_battleship_01_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5280,6 +5655,11 @@
 		<ware id="ishield_arg_xl_resupplier_01_a" name="{6699,13076}" description="{6699,13076}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_xl_resupplier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5290,6 +5670,11 @@
 		<ware id="ishield_par_xl_resupplier_01_a" name="{6699,13077}" description="{6699,13077}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_xl_resupplier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5301,6 +5686,11 @@
 		<ware id="ishield_tel_xl_resupplier_01_a" name="{6699,13078}" description="{6699,13078}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_xl_resupplier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5310,6 +5700,11 @@
 		<ware id="ishield_gen_s_fightingdrone_01_a" name="{6699,13079}" description="{6699,13079}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_gen_s_fightingdrone_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="scaleplate"/>
@@ -5317,6 +5712,11 @@
 		<ware id="ishield_arg_l_trans_container_03_p" name="{6699,13080}" description="{6699,13080}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_trans_container_03_p_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5327,6 +5727,11 @@
 		<ware id="ishield_arg_xl_titan" name="{6699,13081}" description="{6699,13081}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_xl_titan_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5337,6 +5742,11 @@
 		<ware id="ishield_xen_s_scout_01_a" name="{6699,13082}" description="{6699,13082}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_xen_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="xenon"/>
@@ -5344,6 +5754,11 @@
 		<ware id="ishield_par_s_heavyfighter_01_a" name="{6699,13083}" description="{6699,13083}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_s_heavyfighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5355,6 +5770,11 @@
 		<ware id="ishield_spl_s_fighter_01_a" name="{6699,13084}" description="{6699,13084}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5365,6 +5785,11 @@
 		<ware id="ishield_spl_s_fighter_02_a" name="{6699,13085}" description="{6699,13085}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5375,6 +5800,11 @@
 		<ware id="ishield_spl_s_fighter_02_b" name="{6699,13086}" description="{6699,13086}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_fighter_02_b_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5385,6 +5815,11 @@
 		<ware id="ishield_spl_s_heavyfighter_01_a" name="{6699,13087}" description="{6699,13087}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_heavyfighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5395,6 +5830,11 @@
 		<ware id="ishield_spl_s_heavyfighter_02_a" name="{6699,13088}" description="{6699,13088}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_heavyfighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5405,6 +5845,11 @@
 		<ware id="ishield_spl_s_miner_solid_01_a" name="{6699,13089}" description="{6699,13089}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5415,6 +5860,11 @@
 		<ware id="ishield_spl_s_scout_01_a" name="{6699,13090}" description="{6699,13090}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5425,6 +5875,11 @@
 		<ware id="ishield_spl_s_trans_container_01_a" name="{6699,13091}" description="{6699,13091}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_s_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5435,6 +5890,11 @@
 		<ware id="ishield_spl_m_corvette_01_a" name="{6699,13092}" description="{6699,13092}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_corvette_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5445,6 +5905,11 @@
 		<ware id="ishield_spl_m_corvette_01_b" name="{6699,13093}" description="{6699,13093}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_corvette_01_b_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5455,6 +5920,11 @@
 		<ware id="ishield_spl_m_frigate_01_a" name="{6699,13094}" description="{6699,13094}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_frigate_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5465,6 +5935,11 @@
 		<ware id="ishield_spl_m_miner_liquid_01_a" name="{6699,13095}" description="{6699,13095}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5475,6 +5950,11 @@
 		<ware id="ishield_spl_m_miner_solid_01_a" name="{6699,13096}" description="{6699,13096}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5485,6 +5965,11 @@
 		<ware id="ishield_spl_m_trans_container_01_a" name="{6699,13097}" description="{6699,13097}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_m_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5495,6 +5980,11 @@
 		<ware id="ishield_spl_l_destroyer_01_a" name="{6699,13098}" description="{6699,13098}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5505,6 +5995,11 @@
 		<ware id="ishield_spl_l_miner_liquid_01_a" name="{6699,13099}" description="{6699,13099}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5515,6 +6010,11 @@
 		<ware id="ishield_spl_l_miner_solid_01_a" name="{6699,13100}" description="{6699,13100}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5525,6 +6025,11 @@
 		<ware id="ishield_spl_l_trans_container_01_a" name="{6699,13101}" description="{6699,13101}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5535,6 +6040,11 @@
 		<ware id="ishield_spl_xl_builder_01_a" name="{6699,13102}" description="{6699,13102}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_xl_builder_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5545,6 +6055,11 @@
 		<ware id="ishield_spl_xl_carrier_01_a" name="{6699,13103}" description="{6699,13103}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5555,6 +6070,11 @@
 		<ware id="ishield_spl_xl_resupplier_01_a" name="{6699,13104}" description="{6699,13104}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_xl_resupplier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5565,6 +6085,11 @@
 		<ware id="ishield_spl_xl_battleship_01_a" name="{6699,13105}" description="{6699,13105}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_xl_battleship_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5575,6 +6100,11 @@
 		<ware id="ishield_tel_l_shrike_a" name="{6699,13106}" description="{6699,13106}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_tel_l_shrike_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="teladi"/>
@@ -5584,6 +6114,11 @@
 		<ware id="ishield_spl_l_panther_a" name="{6699,13107}" description="{6699,13107}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_panther_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5594,6 +6129,11 @@
 		<ware id="ishield_sca_l_hound" name="{6699,13108}" description="{6699,13108}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_sca_l_hound_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="scaleplate"/>
@@ -5601,6 +6141,11 @@
 		<ware id="ishield_arg_l_cyclops" name="{6699,13109}" description="{6699,13109}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_arg_l_cyclops_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="antigone"/>
@@ -5611,6 +6156,11 @@
 		<ware id="ishield_par_l_hyperion" name="{6699,13110}" description="{6699,13110}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_par_l_hyperion_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="holyorder"/>
@@ -5622,6 +6172,11 @@
 		<ware id="ishield_spl_l_viper_a" name="{6699,13111}" description="{6699,13111}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_spl_l_viper_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="split"/>
@@ -5632,6 +6187,11 @@
 		<ware id="ishield_ter_s_fighter_01_a" name="{6699,13112}" description="{6699,13112}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5640,6 +6200,11 @@
 		<ware id="ishield_ter_s_fighter_02_a" name="{6699,13113}" description="{6699,13113}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_fighter_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5648,6 +6213,11 @@
 		<ware id="ishield_ter_s_fighter_03_a" name="{6699,13114}" description="{6699,13114}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_fighter_03_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5656,6 +6226,11 @@
 		<ware id="ishield_ter_s_heavyfighter_01_a" name="{6699,13115}" description="{6699,13115}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_heavyfighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5664,6 +6239,11 @@
 		<ware id="ishield_ter_s_miner_solid_01_a" name="{6699,13116}" description="{6699,13116}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5672,6 +6252,11 @@
 		<ware id="ishield_ter_s_scout_01_a" name="{6699,13117}" description="{6699,13117}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_scout_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5680,6 +6265,11 @@
 		<ware id="ishield_ter_s_scout_02_a" name="{6699,13118}" description="{6699,13118}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_scout_02_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5688,6 +6278,11 @@
 		<ware id="ishield_ter_s_trans_container_01_a" name="{6699,13119}" description="{6699,13119}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_s_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5696,6 +6291,11 @@
 		<ware id="ishield_yak_s_fighter_01_a" name="{6699,13120}" description="{6699,13120}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_yak_s_fighter_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="yaki"/>
@@ -5703,6 +6303,11 @@
 		<ware id="ishield_ter_m_corvette_01_a" name="{6699,13121}" description="{6699,13121}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_corvette_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5711,6 +6316,11 @@
 		<ware id="ishield_ter_m_frigate_01_a" name="{6699,13122}" description="{6699,13122}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_frigate_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5719,6 +6329,11 @@
 		<ware id="ishield_ter_m_gunboat_01_a" name="{6699,13123}" description="{6699,13123}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_gunboat_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5727,6 +6342,11 @@
 		<ware id="ishield_ter_m_miner_liquid_01_a" name="{6699,13124}" description="{6699,13124}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5735,6 +6355,11 @@
 		<ware id="ishield_ter_m_miner_solid_01_a" name="{6699,13125}" description="{6699,13125}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5743,6 +6368,11 @@
 		<ware id="ishield_ter_m_trans_container_01_a" name="{6699,13126}" description="{6699,13126}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_m_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5751,6 +6381,11 @@
 		<ware id="ishield_yak_m_corvette_01_a" name="{6699,13127}" description="{6699,13127}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_yak_m_corvette_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="yaki"/>
@@ -5758,6 +6393,11 @@
 		<ware id="ishield_atf_l_destroyer_01_a" name="{6699,13128}" description="{6699,13128}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_atf_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5766,6 +6406,11 @@
 		<ware id="ishield_ter_l_destroyer_01_a" name="{6699,13129}" description="{6699,13129}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_l_destroyer_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5774,6 +6419,11 @@
 		<ware id="ishield_ter_l_miner_liquid_01_a" name="{6699,13130}" description="{6699,13130}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_l_miner_liquid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5782,6 +6432,11 @@
 		<ware id="ishield_ter_l_miner_solid_01_a" name="{6699,13131}" description="{6699,13131}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_l_miner_solid_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5790,6 +6445,11 @@
 		<ware id="ishield_ter_l_trans_container_01_a" name="{6699,13132}" description="{6699,13132}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_l_trans_container_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5798,6 +6458,11 @@
 		<ware id="ishield_atf_xl_battleship_01_a" name="{6699,13133}" description="{6699,13133}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_atf_xl_battleship_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5806,6 +6471,11 @@
 		<ware id="ishield_ter_xl_builder_01_a" name="{6699,13134}" description="{6699,13134}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_xl_builder_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5814,6 +6484,11 @@
 		<ware id="ishield_ter_xl_carrier_01_a" name="{6699,13135}" description="{6699,13135}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_xl_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5822,6 +6497,11 @@
 		<ware id="ishield_ter_xl_resupplier_01_a" name="{6699,13136}" description="{6699,13136}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_xl_resupplier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>
@@ -5830,6 +6510,11 @@
 		<ware id="ishield_ter_l_carrier_01_a" name="{6699,13137}" description="{6699,13137}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="1" average="1" max="1"/>
 			<component ref="ishield_ter_l_carrier_01_a_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 			<owner faction="terran"/>

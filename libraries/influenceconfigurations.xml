@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <diff>
 <add sel="/influencelistconfigurations"> 
 
@@ -66,11 +67,12 @@
       </influence>
     </influences>
   </influencelist> -->
-<!--This name is referenced in navigationcontroller.cpp-->
-<!-- <influencelist name="forced_out_of_highway">
+
+  <!--This name is referenced in navigationcontroller.cpp-->
+  <!-- <influencelist name="forced_out_of_highway">
     <influences> -->
-<!-- disable all acceleration for a time, so that the ship drifts away from the highway tube -->
-<!-- <influence type="forwardacceleration">
+      <!-- disable all acceleration for a time, so that the ship drifts away from the highway tube -->
+      <!-- <influence type="forwardacceleration">
         <profile type="envelope" startvalue="0" sustainvalue="0" endvalue="1" attackduration="0" sustainduration="10" releaseduration="10" />
       </influence>
       <influence type="reverseacceleration">
@@ -82,8 +84,8 @@
       <influence type="steeringacceleration">
         <profile type="envelope" startvalue="0" sustainvalue="0" endvalue="1" attackduration="0" sustainduration="10" releaseduration="10" />
       </influence> -->
-<!-- disallow movement for a longer time -->
-<!-- <influence type="maxforwardspeed">
+      <!-- disallow movement for a longer time -->
+      <!-- <influence type="maxforwardspeed">
         <profile type="envelope" startvalue="1" sustainvalue="0" endvalue="1" attackduration="10" sustainduration="50" releaseduration="0" />
       </influence>
       <influence type="maxreversespeed">
@@ -94,36 +96,42 @@
       </influence>
     </influences>
   </influencelist> -->
-<!--Some examples-->
-<!--<influencelist name="regular_damage_example">
+
+  <!--Some examples-->
+
+  <!--<influencelist name="regular_damage_example">
     <influences>
       <influence type="shieldhulldamage">
         <profile type="ticking" startvalue="75" />
       </influence>
     </influences>
   </influencelist>-->
-<!--<influencelist name="hull_only_damage_example">
+
+  <!--<influencelist name="hull_only_damage_example">
     <influences>
       <influence type="hulldamage">
         <profile type="ticking" startvalue="25" />
       </influence>
     </influences>
   </influencelist>-->
-<!--<influencelist name="ticking_damage_over_time_example">
+
+  <!--<influencelist name="ticking_damage_over_time_example">
     <influences>
       <influence type="shieldhulldamage">
         <profile type="ticking" startvalue="25" delay="1" amount="5" />
       </influence>
     </influences>
   </influencelist>-->
-<!--<influencelist name="continuous_damage_over_time_example">
+
+  <!--<influencelist name="continuous_damage_over_time_example">
     <influences>
       <influence type="shieldhulldamage">
         <profile type="continuous" startvalue="125" duration="5" />
       </influence>
     </influences>
   </influencelist>-->
-<!--<influencelist name="damage_shield_and_slow_down_example">
+
+  <!--<influencelist name="damage_shield_and_slow_down_example">
     <influences>
       <influence type="shielddamage">
         <profile type="ticking" startvalue="150" />
@@ -139,11 +147,12 @@
       </influence>
     </influences>
   </influencelist>-->
-<!--<influencelist name="booster_example">
+
+  <!--<influencelist name="booster_example">
     <influences>
       -->
-<!--increase max forward, reduce strafing and steering speeds and accelerations-->
-<!--
+  <!--increase max forward, reduce strafing and steering speeds and accelerations-->
+  <!--
       <influence type="maxforwardspeed">
         <profile type="envelope" startvalue="1" sustainvalue="4" endvalue="1" attackduration="1.0" sustainduration="4.0" releaseduration="2.0" />
       </influence>
