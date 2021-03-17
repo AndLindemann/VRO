@@ -328,5 +328,9 @@
 				<owner exact="xenon" overridenpc="true"/>
 			</ship>
 		</job>
+		<!-- ############################# -->
+		<!--      TERRANS				   -->
+		<!-- ############################# -->
+		<!-- Changed lightcarrier to a possible ship for ter_destroyer_l-->
 	</add>
 </diff>

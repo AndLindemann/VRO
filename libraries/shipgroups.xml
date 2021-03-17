@@ -113,4 +113,11 @@
 		<select macro="ship_sca_l_hound_macro" weight="15"/>
 		<select macro="ship_arg_l_trans_container_03_p_macro" weight="15"/>
 	</add>
+	<!-- #############################	-->
+	<!--			Terran				-->
+	<!-- #############################	-->
+	<add sel="//groups/group[@name='ter_destroyer_l']">
+		<select macro="ship_ter_l_carrier_01_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='ter_destroyer_l']/select[@macro='ship_ter_l_destroyer_01_a_macro']" type="@weight">100</add>
 </diff>
