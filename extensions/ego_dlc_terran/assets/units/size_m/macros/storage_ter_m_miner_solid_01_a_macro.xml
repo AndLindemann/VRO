@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 <macros>
-  <macro name="storage_ter_l_trans_container_01_a_macro" class="storage">
+  <macro name="storage_ter_m_miner_solid_01_a_macro" class="storage">
     <component ref="generic_storage" />
     <properties>
       <identification makerrace="terran" />
-      <cargo max="42000" tags="container" />
+      <cargo max="8800" tags="solid" />
       <hull integrated="1" />
     </properties>
   </macro>
 </macros>-->
 <diff>
-<replace sel="//properties/cargo/@max">63000</replace>
+<replace sel="//properties/cargo/@max">13200</replace>
 </diff>
