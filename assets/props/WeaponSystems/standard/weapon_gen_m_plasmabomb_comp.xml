@@ -38,7 +38,7 @@
 				</parts>
 				<waypoints/>
 			</connection>
-			<connection name="Connection02" tags="part platformcollision forceoutline  " parent="part_rotator">
+			<connection name="Connection02" hidden="true" tags="part platformcollision forceoutline " parent="part_rotator">
 				<restrictions>
 					<restriction type="rotation_x">
 						<limits>
@@ -71,7 +71,7 @@
 					<position x="2.401304E-02" y="-1.844508E-03" z="0.1305029"/>
 				</offset>
 			</connection>
-			<connection name="WeaponCon_01" tags="component weapon mandatory medium bbomb">
+			<connection name="WeaponCon_01" tags="component weapon medium bbomb">
 				<offset/>
 			</connection>
 		</connections>

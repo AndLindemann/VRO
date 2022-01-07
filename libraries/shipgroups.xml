@@ -94,6 +94,26 @@
 	</add>
 	<add sel="//groups/group[@name='spl_destroyer_l']/select[@macro='ship_spl_l_destroyer_01_a_macro']" type="@weight">100</add>
 	<!-- #############################	-->
+	<!--			Terran				-->
+	<!-- #############################	-->
+	<add sel="//groups/group[@name='atf_battleship_xl']">
+		<select macro="ship_ter_xl_sapporo_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='atf_battleship_xl']/select[@macro='ship_atf_xl_battleship_01_a_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='teratf_destroyer_l']">
+		<select macro="ship_ter_l_carrier_01_macro" weight="50"/>
+		<select macro="ship_ter_l_makhaira_macro" weight="50"/>
+		<select macro="ship_ter_l_shikoku_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='teratf_destroyer_l']/select[@macro='ship_atf_l_destroyer_01_a_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='teratf_destroyer_l']/select[@macro='ship_ter_l_destroyer_01_a_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='ter_destroyer_l']">
+		<select macro="ship_ter_l_carrier_01_macro" weight="50"/>
+		<select macro="ship_ter_l_makhaira_macro" weight="50"/>
+		<select macro="ship_ter_l_shikoku_macro" weight="50"/>
+	</add>
+	<add sel="//groups/group[@name='ter_destroyer_l']/select[@macro='ship_ter_l_destroyer_01_a_macro']" type="@weight">100</add>
+	<!-- #############################	-->
 	<!--    		XENON 				-->
 	<!-- #############################	-->
 	<add sel="//groups">
@@ -113,11 +133,4 @@
 		<select macro="ship_sca_l_hound_macro" weight="15"/>
 		<select macro="ship_arg_l_trans_container_03_p_macro" weight="15"/>
 	</add>
-	<!-- #############################	-->
-	<!--			Terran				-->
-	<!-- #############################	-->
-	<add sel="//groups/group[@name='ter_destroyer_l']">
-		<select macro="ship_ter_l_carrier_01_macro" weight="50"/>
-	</add>
-	<add sel="//groups/group[@name='ter_destroyer_l']/select[@macro='ship_ter_l_destroyer_01_a_macro']" type="@weight">100</add>
 </diff>
