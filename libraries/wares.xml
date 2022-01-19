@@ -3240,7 +3240,7 @@
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="6"/>
+					<ware ware="missilecomponents" amount="3"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3268,7 +3268,7 @@
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="9"/>
+					<ware ware="missilecomponents" amount="3"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3296,7 +3296,7 @@
 			<production time="2" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="16"/>
+					<ware ware="missilecomponents" amount="8"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3326,7 +3326,7 @@
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="19"/>
+					<ware ware="missilecomponents" amount="9"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3354,7 +3354,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="27"/>
+					<ware ware="missilecomponents" amount="13"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3388,7 +3388,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="20"/>
+					<ware ware="missilecomponents" amount="10"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3431,7 +3431,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="38"/>
+					<ware ware="missilecomponents" amount="19"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3459,7 +3459,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="45"/>
+					<ware ware="missilecomponents" amount="22"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3502,7 +3502,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="42"/>
+					<ware ware="missilecomponents" amount="21"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3534,7 +3534,7 @@
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="missilecomponents" amount="2"/>
 					<ware ware="smartchips" amount="0"/>
 				</primary>
 			</production>
@@ -3562,7 +3562,7 @@
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="10"/>
+					<ware ware="missilecomponents" amount="5"/>
 					<ware ware="smartchips" amount="4"/>
 				</primary>
 			</production>
@@ -3590,7 +3590,7 @@
 			<production time="2" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="8"/>
+					<ware ware="missilecomponents" amount="4"/>
 					<ware ware="smartchips" amount="3"/>
 				</primary>
 			</production>
@@ -3633,7 +3633,7 @@
 			<production time="2" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="20"/>
-					<ware ware="missilecomponents" amount="13"/>
+					<ware ware="missilecomponents" amount="6"/>
 					<ware ware="smartchips" amount="5"/>
 				</primary>
 			</production>
@@ -3667,7 +3667,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="26"/>
+					<ware ware="missilecomponents" amount="13"/>
 					<ware ware="smartchips" amount="10"/>
 				</primary>
 			</production>
@@ -3699,7 +3699,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="16"/>
+					<ware ware="missilecomponents" amount="8"/>
 					<ware ware="smartchips" amount="6"/>
 				</primary>
 			</production>
@@ -3742,7 +3742,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="23"/>
+					<ware ware="missilecomponents" amount="11"/>
 					<ware ware="smartchips" amount="9"/>
 				</primary>
 			</production>
@@ -3770,7 +3770,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="30"/>
+					<ware ware="missilecomponents" amount="15"/>
 					<ware ware="smartchips" amount="12"/>
 				</primary>
 			</production>
@@ -3798,7 +3798,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="36"/>
+					<ware ware="missilecomponents" amount="18"/>
 					<ware ware="smartchips" amount="14"/>
 				</primary>
 			</production>
@@ -3841,7 +3841,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="45"/>
+					<ware ware="missilecomponents" amount="22"/>
 					<ware ware="smartchips" amount="18"/>
 				</primary>
 			</production>
@@ -3884,7 +3884,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="60"/>
+					<ware ware="missilecomponents" amount="30"/>
 					<ware ware="smartchips" amount="24"/>
 				</primary>
 			</production>
@@ -3914,7 +3914,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="45"/>
-					<ware ware="missilecomponents" amount="84"/>
+					<ware ware="missilecomponents" amount="42"/>
 					<ware ware="smartchips" amount="34"/>
 				</primary>
 			</production>
@@ -3957,7 +3957,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="36"/>
+					<ware ware="missilecomponents" amount="18"/>
 					<ware ware="smartchips" amount="14"/>
 				</primary>
 			</production>
@@ -3989,7 +3989,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="54"/>
+					<ware ware="missilecomponents" amount="27"/>
 					<ware ware="smartchips" amount="22"/>
 				</primary>
 			</production>
@@ -4032,7 +4032,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="150"/>
-					<ware ware="missilecomponents" amount="75"/>
+					<ware ware="missilecomponents" amount="37"/>
 					<ware ware="smartchips" amount="30"/>
 				</primary>
 			</production>
@@ -4060,7 +4060,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="150"/>
-					<ware ware="missilecomponents" amount="60"/>
+					<ware ware="missilecomponents" amount="30"/>
 					<ware ware="smartchips" amount="24"/>
 				</primary>
 			</production>
@@ -4090,7 +4090,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="111"/>
+					<ware ware="missilecomponents" amount="55"/>
 					<ware ware="smartchips" amount="44"/>
 				</primary>
 			</production>
@@ -4118,7 +4118,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="144"/>
+					<ware ware="missilecomponents" amount="72"/>
 					<ware ware="smartchips" amount="58"/>
 				</primary>
 			</production>
@@ -4161,7 +4161,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="120"/>
+					<ware ware="missilecomponents" amount="60"/>
 					<ware ware="smartchips" amount="48"/>
 				</primary>
 			</production>
@@ -4195,7 +4195,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="61"/>
+					<ware ware="missilecomponents" amount="30"/>
 					<ware ware="smartchips" amount="24"/>
 				</primary>
 			</production>
@@ -4223,7 +4223,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="90"/>
+					<ware ware="missilecomponents" amount="45"/>
 					<ware ware="smartchips" amount="36"/>
 				</primary>
 			</production>
@@ -4251,7 +4251,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="105"/>
+					<ware ware="missilecomponents" amount="52"/>
 					<ware ware="smartchips" amount="42"/>
 				</primary>
 			</production>
@@ -4294,7 +4294,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="4"/>
+					<ware ware="missilecomponents" amount="2"/>
 					<ware ware="smartchips" amount="1"/>
 				</primary>
 			</production>
@@ -4322,7 +4322,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="32"/>
+					<ware ware="missilecomponents" amount="16"/>
 					<ware ware="smartchips" amount="13"/>
 				</primary>
 			</production>
@@ -4353,7 +4353,7 @@
 			<production time="1" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="100"/>
-					<ware ware="missilecomponents" amount="42"/>
+					<ware ware="missilecomponents" amount="21"/>
 					<ware ware="smartchips" amount="17"/>
 				</primary>
 			</production>
@@ -4384,7 +4384,7 @@
 			<production time="5" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="5"/>
+					<ware ware="missilecomponents" amount="2"/>
 					<ware ware="smartchips" amount="2"/>
 				</primary>
 			</production>
@@ -4415,7 +4415,7 @@
 			<production time="3" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="200"/>
-					<ware ware="missilecomponents" amount="108"/>
+					<ware ware="missilecomponents" amount="54"/>
 					<ware ware="smartchips" amount="43"/>
 				</primary>
 			</production>
@@ -4446,7 +4446,7 @@
 			<production time="4" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="50"/>
-					<ware ware="missilecomponents" amount="24"/>
+					<ware ware="missilecomponents" amount="12"/>
 					<ware ware="smartchips" amount="10"/>
 				</primary>
 			</production>
