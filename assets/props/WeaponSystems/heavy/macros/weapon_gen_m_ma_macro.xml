@@ -8,8 +8,8 @@
       <identification name="{6699,11006}" basename="{6699,11006}" shortname="{6699,11007}" description="{6699,11005}"  />
       <bullet class="bullet_gen_m_ma_macro" />
       <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="7500" />
-      <rotationspeed max="45" />
-      <rotationacceleration max="20.4" />
+      <rotationspeed max="15" />
+      <rotationacceleration max="30" />
       <reload />
       <hull max="1001" hittable="0" />
     </properties>

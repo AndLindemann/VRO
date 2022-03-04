@@ -9,8 +9,8 @@
       <identification name="{20105,1214}" basename="{20105,1211}" shortname="{20105,1215}" description="{20105,1212}" />
       <bullet class="bullet_tel_s_charge_01_mk2_macro" />
       <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="7500" />
-      <rotationspeed max="58" />
-      <rotationacceleration max="29" />
+      <rotationspeed max="19.3" />
+      <rotationacceleration max="38.6" />
       <reload />
       <hull max="500" hittable="0" />
       <sounds>

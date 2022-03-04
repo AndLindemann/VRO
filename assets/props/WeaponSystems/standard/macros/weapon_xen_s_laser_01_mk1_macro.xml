@@ -9,8 +9,8 @@
       <identification name="{6699,1050}" basename="{6699,1050}" shortname="{6699,1051}" makerrace="xenon" description="{6699,1050}" mk="1" />
       <bullet class="bullet_xen_s_laser_01_mk1_macro" />
       <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="9500" />
-      <rotationspeed max="101.4" />
-      <rotationacceleration max="50.7" />
+      <rotationspeed max="33.8" />
+      <rotationacceleration max="67.6" />
       <reload />
       <hull integrated="1" />
     </properties>

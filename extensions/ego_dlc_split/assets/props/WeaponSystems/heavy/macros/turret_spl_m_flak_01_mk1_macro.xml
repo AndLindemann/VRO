@@ -7,7 +7,8 @@
     <properties>
       <identification name="{6699,12047}" basename="{6699,12048}" shortname="{6699,12049}" makerrace="split" description="{6699,12050}" />
       <bullet class="bullet_spl_m_flak_01_mk1_macro" />
-      <rotationspeed max="250" />
+      <rotationspeed max="83.3" />
+	  <rotationacceleration max="166.6" />
       <reload rate="1" time="1" />
       <hull threshold="0.2" integrated="1" />
     </properties>

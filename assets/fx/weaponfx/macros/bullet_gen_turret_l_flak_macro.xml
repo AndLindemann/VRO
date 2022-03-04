@@ -14,7 +14,7 @@
         <impact ref="impact_gen_turret_flak" />
         <launch ref="muzzle_gen_turret_flak" />
       </effects>
-      <weapon system="turret_mediumrange" />
+      <weapon system="turret_midrange" />
     </properties>
   </macro>
 </macros>

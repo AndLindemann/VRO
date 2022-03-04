@@ -8,8 +8,8 @@
           <identification name="{6699,15041}" basename="{6699,15042}" shortname="{6699,15043}" makerrace="terran" description="{6699,15044}"  />
           <bullet class="bullet_ter_m_pulse_macro" />
           <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="9500" />
-          <rotationspeed max="100" />
-          <rotationacceleration max="50" />
+          <rotationspeed max="33.3" />
+          <rotationacceleration max="66.6" />
           <reload />
           <hull max="1000" hittable="0" />
           <effects>

@@ -4,7 +4,6 @@
 	<remove sel="//components/component/connections/connection[@name='con_turret_laser_l_003']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_laser_l_014']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_laser_l_016']"/>
-
 </diff>
 
 <!-- <components>

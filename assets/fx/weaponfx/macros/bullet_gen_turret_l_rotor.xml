@@ -12,7 +12,7 @@
         <impact ref="impact_turret_rotor" />
         <launch ref="muzzle_gen_turret_rotor" />
       </effects>
-      <weapon system="turret_mediumrange" />
+      <weapon system="turret_midrange" />
     </properties>
   </macro>
 </macros>

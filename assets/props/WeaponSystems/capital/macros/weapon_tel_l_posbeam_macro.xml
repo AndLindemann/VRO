@@ -7,8 +7,8 @@
       <identification name="{6699,11008}" description="{6699,11009}"  />
       <bullet class="bullet_gen_l_posbeam_macro" />
       <heat overheat="10000" cooldelay="1.0" coolrate="2000" reenable="0" />
-      <rotationspeed max="5" />
-      <rotationacceleration max="2" />
+      <rotationspeed max="2" />
+      <rotationacceleration max="4" />
       <reload />
       <hull max="35000" />
     </properties>

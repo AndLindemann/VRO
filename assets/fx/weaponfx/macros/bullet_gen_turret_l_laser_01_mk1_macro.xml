@@ -15,7 +15,7 @@
         <bigobjectimpact ref="impact_gen_turret_fusion_ray" inside="impact_gen_l_laser_01_mk1_bigobject_inside" />
         <launch ref="muzzle_gen_turret_fusion_ray" />
       </effects>
-      <weapon system="turret_mediumrange" />
+      <weapon system="turret_midrange" />
     </properties>
   </macro>
 </macros>
