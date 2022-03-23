@@ -46,6 +46,19 @@
 	<!-- <replace sel="//wares/ware[@id='ship_xen_xl_carrier_01_a']/production/@time">1330</replace>
 
 	<replace sel="//wares/ware[@id='ship_xen_xl_destroyer_01_a']/production/@time">610</replace> -->
+	<ware id="ship_xen_s_fighter_l" name="{20403,12}" description="{20403,12}" group="ships_xenon" transport="ship" volume="1" tags="noplayerblueprint ship">
+		<price min="33864" average="39840" max="45816"/>
+		<production time="30" amount="1" method="default" name="{20206,601}" tags="noplayerbuild">
+			<primary>
+				<ware ware="energycells" amount="100"/>
+				<ware ware="ore" amount="50"/>
+				<ware ware="silicon" amount="100"/>
+			</primary>
+		</production>
+		<component ref="ship_xen_s_fighter_l_macro"/>
+		<restriction licence="militaryship"/>
+		<owner faction="xenon"/>
+	</ware>
 	<!-- L and XL ships prices -->
 	<replace sel="//wares/ware[@id='ship_spl_l_destroyer_01_a']/price">
 		<price min="15271465" average="17913487" max="20955511"/>
@@ -988,6 +1001,25 @@
 		<price min="20514739" average="23993810" max="27572882"/>
 	</replace>
 	<replace sel="//wares/ware[@id='ship_par_xl_carrier_01_b']/production/primary">
+		<primary>
+			<ware ware="energycells" amount="4819"/>
+			<ware ware="hullparts" amount="16961"/>
+		</primary>
+	</replace>
+	<replace sel="//ware[@id='ship_par_xl_carrier_01_b']/@tags">ship noplayerbuild noblueprint</replace>
+	<replace sel="//wares/ware[@id='ship_par_l_destroyer_02_a']/price">
+		<price min="9075338" average="10482750" max="11990163"/>
+	</replace>
+	<replace sel="//wares/ware[@id='ship_par_l_destroyer_02_a']/production/primary">
+		<primary>
+			<ware ware="energycells" amount="6486"/>
+			<ware ware="hullparts" amount="6835"/>
+		</primary>
+	</replace>
+	<replace sel="//wares/ware[@id='ship_par_xl_carrier_02_a']/price">
+		<price min="20514739" average="23993810" max="27572882"/>
+	</replace>
+	<replace sel="//wares/ware[@id='ship_par_xl_carrier_02_a']/production/primary">
 		<primary>
 			<ware ware="energycells" amount="4819"/>
 			<ware ware="hullparts" amount="16961"/>
@@ -2438,6 +2470,19 @@
 			<owner faction="antigone"/>
 			<owner faction="argon"/>
 		</ware>
+		<ware id="ship_arg_xl_corona" name="{20101,13401}" description="{20101,13401}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="40000000" average="45000000" max="50000000"/>
+			<production time="550" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="6140"/>
+					<ware ware="hullparts" amount="18675"/>
+				</primary>
+			</production>
+			<component ref="ship_arg_xl_corona_macro" amount="1"/>
+			<restriction licence="capitalship"/>
+			<owner faction="antigone"/>
+			<owner faction="argon"/>
+		</ware>
 		<ware id="ship_tel_xl_battleship_a" name="{20101,22101}" description="{20101,22101}" group="ships_teladi" transport="ship" volume="1" tags="ship">
 			<price min="29000000" average="33000000" max="39000000"/>
 			<production time="550" amount="1" method="default" name="{20206,101}">
@@ -2875,6 +2920,20 @@
 				</primary>
 			</production>
 			<component ref="turret_xen_m_missile_macro" amount="1"/>
+			<restriction licence="generaluseequipment"/>
+			<use threshold="0" factions="xenon"/>
+			<owner faction="xenon"/>
+		</ware>
+		<ware id="weapon_gen_s_xentorp" name="{20105,1144}" description="{20105,1142}" group="weapons" transport="equipment" volume="1" tags="equipment noplayerblueprint turret">
+			<price min="1039" average="1088" max="1136"/>
+			<production time="5" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="5"/>
+					<ware ware="ore" amount="5"/>
+					<ware ware="silicon" amount="5"/>
+				</primary>
+			</production>
+			<component ref="weapon_gen_s_xentorp_macro" amount="1"/>
 			<restriction licence="generaluseequipment"/>
 			<use threshold="0" factions="xenon"/>
 			<owner faction="xenon"/>
@@ -4544,6 +4603,20 @@
 			<use threshold="0" factions="xenon"/>
 			<owner faction="xenon"/>
 		</ware>
+		<!-- XENON LX  -->
+		<ware id="ship_xen_s_fighter_lx" name="{20403,12}{20403,24}" description="{20403,12}{20403,24}" group="ships_xenon" transport="ship" volume="1" tags="noplayerblueprint ship">
+			<price min="53864" average="69840" max="75816"/>
+			<production time="9" amount="1" method="default" name="{20206,601}" tags="noplayerbuild">
+				<primary>
+					<ware ware="energycells" amount="100"/>
+					<ware ware="ore" amount="60"/>
+					<ware ware="silicon" amount="60"/>
+				</primary>
+			</production>
+			<component ref="ship_xen_s_fighter_lx_macro"/>
+			<restriction licence="militaryship"/>
+			<owner faction="xenon"/>
+		</ware>
 		<!-- XENON V  -->
 		<ware id="ship_xen_xl_mdestroyer_01_a" name="{20101,71501}" description="{20101,71501}" group="ships_xenon" transport="ship" volume="1" tags="noplayerblueprint ship">
 			<price min="1033787" average="1216220" max="1398653"/>
@@ -6165,6 +6238,127 @@
 				</primary>
 			</production>
 			<component ref="ishield_sdp_frigate_triton_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_gen_m_yacht_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_gen_m_yacht_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_l_miner_solid_01_a" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_l_miner_solid_01_a_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_l_scavenger_01_a" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_l_scavenger_01_a_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_l_scavenger_01_a_storyhighcapacity" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_l_scavenger_01_a_storyhighcapacity_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_l_scrapper_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_l_scrapper_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_s_fighter_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_s_fighter_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_s_fighter_02" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_s_fighter_02_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_s_heavyfighter_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_s_heavyfighter_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_s_trans_container_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_s_trans_container_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_xl_battleship_01" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_xl_battleship_01_macro" amount="1"/>
+			<use threshold="0"/>
+			<restriction licence="generaluseequipment"/>
+		</ware>
+		<ware id="ishield_pir_xl_battleship_01_a" name="{6699,13142}" description="{6699,13142}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<component ref="ishield_pir_xl_battleship_01_a_macro" amount="1"/>
 			<use threshold="0"/>
 			<restriction licence="generaluseequipment"/>
 		</ware>

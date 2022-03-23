@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<replace sel="//macros">
+<macros>
+  <macro name="engine_gen_m_yacht_01_mk1_video_macro" class="destructible" alias="engine_gen_m_yacht_01_mk1_macro">
+    <component ref="engine_gen_m_yacht_01_mk1_video" />
+    <properties>
+      <identification name="{20107,9004}" basename="{20107,9001}" shortname="{20107,9005}" makerrace="argon" description="{20107,9002}" />
+    </properties>
+  </macro>
+</macros>
+</replace>
+</diff>
+<!--
+<macros>
+  <macro name="engine_gen_m_yacht_01_mk1_video_macro" class="destructible" alias="engine_gen_m_yacht_01_mk1_macro">
+    <component ref="engine_gen_m_yacht_01_mk1_video" />
+    <properties>
+      <identification name="{20107,9004}" basename="{20107,9001}" shortname="{20107,9005}" makerrace="argon" description="{20107,9002}" />
+    </properties>
+  </macro>
+</macros>-->
