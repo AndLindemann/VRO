@@ -423,14 +423,12 @@
 		<entry name="ishield_gen_m_yacht_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_gen_m_yacht_01_macro"/>
 		<entry name="ishield_pir_l_miner_solid_01_a_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_l_miner_solid_01_a_macro"/>
 		<entry name="ishield_pir_l_scavenger_01_a_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_l_scavenger_01_a_macro"/>
-		<entry name="ishield_pir_l_scavenger_01_a_storyhighcapacity_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_l_scavenger_01_a_storyhighcapacity_macro"/>
 		<entry name="ishield_pir_l_scrapper_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_l_scrapper_01_macro"/>
 		<entry name="ishield_pir_s_fighter_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_s_fighter_01_macro"/>
 		<entry name="ishield_pir_s_fighter_02_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_s_fighter_02_macro"/>
 		<entry name="ishield_pir_s_heavyfighter_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_s_heavyfighter_01_macro"/>
 		<entry name="ishield_pir_s_trans_container_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_s_trans_container_01_macro"/>
 		<entry name="ishield_pir_xl_battleship_01_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_xl_battleship_01_macro"/>
-		<entry name="ishield_pir_xl_battleship_01_a_macro" value="extensions\vro\extensions\ego_dlc_pirate\assets\props\surfaceelements\macros\ishield_pir_xl_battleship_01_a_macro"/>
 		<!-- Docks -->
 		<entry name="dockarea_vroinv_s_macro" value="extensions\vro\assets\structures\dock\macros\dockarea_vroinv_s_macro"/>
 		<entry name="dockingbay_vroinv_s_macro" value="extensions\vro\assets\structures\dock\macros\dockingbay_vroinv_s_macro"/>

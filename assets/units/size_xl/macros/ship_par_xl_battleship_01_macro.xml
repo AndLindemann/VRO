@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 27.11.2018_14-45-29-->
 <macros>
 	<macro name="ship_par_xl_battleship_01_macro" class="ship_xl">
 		<component ref="ship_par_xl_battleship_01"/>
@@ -21,7 +22,7 @@
 			<people capacity="147"/>
 			<physics mass="857.739">
 				<inertia pitch="1450.45" yaw="1450.45" roll="1100.76"/>
-				<drag forward="250.451" reverse="943.804" horizontal="309.424" vertical="309.424" pitch="900.948" yaw="900.948" roll="900.948"/>
+				<drag forward="230.451" reverse="943.804" horizontal="309.424" vertical="309.424" pitch="800.948" yaw="800.948" roll="800.948"/>
 			</physics>
 			<thruster tags="extralarge"/>
 			<ship type="battleship"/>

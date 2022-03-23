@@ -26,7 +26,6 @@
 						<inertia pitch="221.346" yaw="221.346" roll="200.277"/>
 						<drag forward="89" reverse="345.68" horizontal="126.805" vertical="126.805" pitch="235.406" yaw="235.406" roll="235.406"/>
 					</physics>
-					<radar range="45000"/>
 					<thruster tags="large"/>
 					<ship type="scavenger"/>
 				</properties>
