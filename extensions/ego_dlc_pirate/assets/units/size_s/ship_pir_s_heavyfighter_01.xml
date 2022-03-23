@@ -8,6 +8,10 @@
 			</offset>
 		</connection>
 	</add>
+	<replace sel="/components/component/connections/connection[@name='con_weapon_01']/@tags"> weapon small platformcollision highpower</replace>
+	<replace sel="/components/component/connections/connection[@name='con_weapon_02']/@tags">weapon small platformcollision highpower</replace>
+	<replace sel="/components/component/connections/connection[@name='con_weapon_03']/@tags">weapon small platformcollision standard highpower missile symmetry symmetry_right symmetry_1 </replace>
+	<replace sel="/components/component/connections/connection[@name='con_weapon_04']/@tags"> weapon small platformcollision standard highpower missile symmetry symmetry_left symmetry_1 </replace>
 </diff>
 <!--
 <components>
