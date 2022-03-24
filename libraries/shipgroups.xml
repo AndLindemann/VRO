@@ -41,7 +41,7 @@
 	<add sel="//groups/group[@name='par_destroyer_l']">
 		<select macro="ship_par_l_hyperion_macro" weight="50"/>
 	</add>
-	<add sel="//groups/group[@name='par_destroyer_l']/select[@macro='ship_par_l_destroyer_01_a_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='par_destroyer_l']/select[@macro='ship_par_l_destroyer_02_a_macro']" type="@weight">100</add>
 	<!-- ############################# -->
 	<!--	HOLY ORDER OF THE PONTIFEX	 -->
 	<!-- ############################# -->
@@ -53,7 +53,7 @@
 	<add sel="//groups/group[@name='hol_destroyer_l']">
 		<select macro="ship_par_l_hyperion_macro" weight="50"/>
 	</add>
-	<add sel="//groups/group[@name='hol_destroyer_l']/select[@macro='ship_par_l_destroyer_01_b_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='hol_destroyer_l']/select[@macro='ship_par_l_destroyer_02_a_macro']" type="@weight">100</add>
 	<!-- ############################# -->
 	<!--			TRINITY				 -->
 	<!-- ############################# -->
@@ -65,8 +65,7 @@
 	<add sel="//groups/group[@name='tri_destroyer_l']">
 		<select macro="ship_par_l_hyperion_macro" weight="50"/>
 	</add>
-	<add sel="//groups/group[@name='tri_destroyer_l']/select[@macro='ship_par_l_destroyer_01_a_macro']" type="@weight">100</add>
-	<add sel="//groups/group[@name='tri_destroyer_l']/select[@macro='ship_par_l_destroyer_01_b_macro']" type="@weight">100</add>
+	<add sel="//groups/group[@name='tri_destroyer_l']/select[@macro='ship_par_l_destroyer_02_a_macro']" type="@weight">100</add>
 	<!-- #############################	-->
 	<!--	TELADI COMPANY & MINISTRY	-->
 	<!-- #############################	-->

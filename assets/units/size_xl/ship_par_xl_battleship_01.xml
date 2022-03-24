@@ -431,7 +431,7 @@
 				</offset>
 			</connection>
 <!--Turrets LARGE Center Up MIDDLE-->
-			<connection name="con_turret_CUML01" group="group_center_up_middle_large " tags="turret largestandard ">
+			<connection name="con_turret_CUML01" group="group_center_up_middle_large " tags="turret large standard ">
 				<offset>
 					<position x="-60" y="52" z="-418"/>
 				</offset>
