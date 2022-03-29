@@ -23,6 +23,8 @@
 	<remove sel="//wares/ware[@id='weapon_spl_m_railgun_01_mk2']"/>
 	<remove sel="//wares/ware[@id='weapon_spl_m_shotgun_01_mk2']"/>
 	<remove sel="//wares/ware[@id='weapon_spl_m_sticky_01_mk2']"/>
+	<replace sel="//wares/ware[@id='mod_shield_rechargedelay_01_mk1']/@tags">crafting equipmentmod noplayerblueprint noblueprint nocustomgamestart</replace>
+	
 	<!-- SCA wares updates  -->
 	<add sel="//wares/ware[@id='weapon_gen_s_laser_01_mk2']"><owner faction="scaleplate"/></add>
 	<add sel="//wares/ware[@id='weapon_gen_s_guided_01_mk1']"><owner faction="scaleplate"/></add>

@@ -63,109 +63,107 @@
 				</waypoints>
 			</layer>
 		</layers>
-
 		<connections>
 			<connection name="container" tags="contents" value="0" optional="0"/>
 			<connection name="position" tags="position" value="1" optional="1"/>
 			<connection name="space" tags="ship">
 				<offset/>
 			</connection>
-			
 			<connection name="Connection01" tags="part">
 				<parts>
 					<part name="detail_m_main">
 						<size>
-							<max x="28.1012" y="10.1254" z="29.4373" />
-             				 <center x="0.961905" y="-108.616" z="-48.5445" />
+							<max x="28.1012" y="10.1254" z="29.4373"/>
+							<center x="0.961905" y="-108.616" z="-48.5445"/>
 						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="split.metal_split_platesA_01" />
-									<material id="2" ref="split.metal_split_platesA2_01" />
-									<material id="3" ref="split.metal_split_platesA3_01" />
-									<material id="4" ref="split.metal_split_platesB_01" />
-									<material id="5" ref="split.metal_split_platesC_01" />
-									<material id="6" ref="split.metal_split_platesF_01" />
-									<material id="7" ref="split.metal_split_platesG_01" />
-									<material id="8" ref="split.metal_split_trim_platesH_01" />
+									<material id="1" ref="split.metal_split_platesA_01"/>
+									<material id="2" ref="split.metal_split_platesA2_01"/>
+									<material id="3" ref="split.metal_split_platesA3_01"/>
+									<material id="4" ref="split.metal_split_platesB_01"/>
+									<material id="5" ref="split.metal_split_platesC_01"/>
+									<material id="6" ref="split.metal_split_platesF_01"/>
+									<material id="7" ref="split.metal_split_platesG_01"/>
+									<material id="8" ref="split.metal_split_trim_platesH_01"/>
 								</materials>
 							</lod>
 						</lods>
 					</part>
 				</parts>
 				<offset>
-					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<position x="-0.000000" y="0.000000" z="0.000000"/>
 				</offset>
 			</connection>
 			<connection name="Connection02" tags="part">
 				<parts>
 					<part name="detail_s_main">
 						<size>
-							<max x="74.5908" y="106.858" z="484.552" />
-            				  <center x="2.2971" y="-87.5853" z="244.657" />
+							<max x="74.5908" y="106.858" z="484.552"/>
+							<center x="2.2971" y="-87.5853" z="244.657"/>
 						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="split.metal_split_trim_platesm_01" />
-									<material id="2" ref="split.metal_split_trim_platesk_01" />
-									<material id="3" ref="split.metal_split_platesb2_01" />
-									<material id="4" ref="split.metal_gastanksa_01" />
-									<material id="5" ref="split.metal_split_exl_01" />
-									<material id="6" ref="split.metal_split_lattice_01" />
+									<material id="1" ref="split.metal_split_trim_platesm_01"/>
+									<material id="2" ref="split.metal_split_trim_platesk_01"/>
+									<material id="3" ref="split.metal_split_platesb2_01"/>
+									<material id="4" ref="split.metal_gastanksa_01"/>
+									<material id="5" ref="split.metal_split_exl_01"/>
+									<material id="6" ref="split.metal_split_lattice_01"/>
 								</materials>
 							</lod>
 						</lods>
 					</part>
 				</parts>
 				<offset>
-					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<position x="-0.000000" y="0.000000" z="0.000000"/>
 				</offset>
 			</connection>
 			<connection name="Connection03" tags="part">
 				<parts>
-					<part name="part_main" wreck="part_main_wreck" >
+					<part name="part_main" wreck="part_main_wreck">
 						<size>
-							<max x="107.248" y="119.193" z="482.039" />
-							<center x="1.3744" y="-47.045" z="232.818" />
+							<max x="107.248" y="119.193" z="482.039"/>
+							<center x="1.3744" y="-47.045" z="232.818"/>
 						</size>
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="split.metal_split_platesA3_01" />
-									<material id="2" ref="split.metal_split_platesB_01" />
-									<material id="3" ref="split.metal_split_platesC_01" />
-									<material id="4" ref="split.metal_split_platesF_01" />
-									<material id="5" ref="split.metal_split_platesG_01" />
-									<material id="6" ref="split.metal_split_trim_platesI_01" />
+									<material id="1" ref="split.metal_split_platesA3_01"/>
+									<material id="2" ref="split.metal_split_platesB_01"/>
+									<material id="3" ref="split.metal_split_platesC_01"/>
+									<material id="4" ref="split.metal_split_platesF_01"/>
+									<material id="5" ref="split.metal_split_platesG_01"/>
+									<material id="6" ref="split.metal_split_trim_platesI_01"/>
 								</materials>
 							</lod>
 							<lod index="1">
 								<materials>
-									<material id="1" ref="split.metal_split_platesA3_01" />
-									<material id="2" ref="split.metal_split_platesB_01" />
-									<material id="3" ref="split.metal_split_platesF_01" />
-									<material id="4" ref="split.metal_split_platesG_01" />
-									<material id="5" ref="split.metal_split_trim_platesI_01" />
+									<material id="1" ref="split.metal_split_platesA3_01"/>
+									<material id="2" ref="split.metal_split_platesB_01"/>
+									<material id="3" ref="split.metal_split_platesF_01"/>
+									<material id="4" ref="split.metal_split_platesG_01"/>
+									<material id="5" ref="split.metal_split_trim_platesI_01"/>
 								</materials>
 							</lod>
 							<lod index="2">
 								<materials>
-									<material id="1" ref="split.metal_split_platesA3_01" />
-									<material id="2" ref="split.metal_split_platesF_01" />
+									<material id="1" ref="split.metal_split_platesA3_01"/>
+									<material id="2" ref="split.metal_split_platesF_01"/>
 								</materials>
 							</lod>
 							<lod index="3">
 								<materials>
-									<material id="1" ref="split.metal_split_platesA3_01" />
+									<material id="1" ref="split.metal_split_platesA3_01"/>
 								</materials>
 							</lod>
 						</lods>
 					</part>
 				</parts>
 				<offset>
-					<position x="-0.000000" y="0.000000" z="0.000000" />
+					<position x="-0.000000" y="0.000000" z="0.000000"/>
 				</offset>
 			</connection>
 			<connection name="Connection04" tags="part  ">
@@ -174,7 +172,6 @@
 				</offset>
 				<parts/>
 			</connection>
-
 			<connection name="con_cockpit" tags="cockpit cockpit_visible">
 				<offset>
 					<position x="-2.121" y="40.88" z="38.5"/>
@@ -207,7 +204,6 @@
 					<position x="0" y="206.2076" z="-45.58646"/>
 				</offset>
 			</connection>
-
 			<connection name="con_buildmodule" tags="buildmodule">
 				<offset>
 					<position x="0" y="0" z="0"/>
@@ -218,16 +214,13 @@
 					<position x="0" y="0" z="0"/>
 				</offset>
 			</connection>
-
-			<connection name="con_ishield_01" tags="ishield shield  ishield_spl_l_panther_a">
+			<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_spl_l_panther_a">
 				<offset>
-						<position x="0" y="0" z="0"/>
-						<quaternion qx="0" qy="0" qz="0" qw="0"/>
-					</offset>
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="0" qy="0" qz="0" qw="0"/>
+				</offset>
 			</connection>
-
-
-			<connection group="top" name="con_shieldgen_m_top_1" tags="medium shield hittable">
+			<connection group="top" name="con_shieldgen_m_top_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-1.6214" y="71.06479999999999" z="-79.9426"/>
 					<quaternion qw="-0.7071401299582554" qx="0.006859315553861948" qy="-0.7070398068272258" qz="0.0007056588931815508"/>
@@ -244,14 +237,13 @@
 					<position x="-1.5667" y="-47.7941" z="-223.2353"/>
 				</offset>
 			</connection>
-			<connection group="enggroup" name="con_shieldgen_m_enggroup_1" tags="medium shield hittable">
+			<connection group="enggroup" name="con_shieldgen_m_enggroup_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-1.1151" y="-86.8796" z="-163.32670000000002"/>
 					<quaternion qw="0.0022156713922372234" qx="-0.0005249984641955111" qy="-0.0008159976129210229" qz="-0.9999970746581163"/>
 				</offset>
 			</connection>
-		
-			<connection name="con_shieldgen_l" tags="large shield hittable">
+			<connection name="con_shieldgen_l" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="-2.2831" y="-54.5329" z="232.0287"/>
 					<quaternion qw="-1.8267948965247504e-06" qx="0.0" qy="0.009939995994160865" qz="-0.9999505970178222"/>
@@ -305,49 +297,49 @@
 					<quaternion qw="-0.9934466054870484" qx="0.11427175003892026" qy="0.0002204787111415283" qz="-0.002400120505578514"/>
 				</offset>
 			</connection>
-			<connection group="back" name="con_shieldgen_m_left-back_1" tags="medium shield hittable">
+			<connection group="back" name="con_shieldgen_m_left-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-16.441300000000002" y="-69.271" z="-146.9962"/>
 					<quaternion qw="-0.5046278290748335" qx="0.007866725152244061" qy="-0.0010014707173620623" qz="-0.8633005651654596"/>
 				</offset>
 			</connection>
-			<connection group="back" name="con_shieldgen_m_right-back_1" tags="medium shield hittable">
+			<connection group="back" name="con_shieldgen_m_right-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="12.241300000000002" y="-69.271" z="-146.9962"/>
 					<quaternion qw="-0.5046278290748335" qx="0.007866725152244061" qy="0.0010014707173620623" qz="0.8633005651654596"/>
 				</offset>
 			</connection>
-			<connection group="wing" name="con_shieldgen_m_left-wing_1" tags="medium shield hittable">
+			<connection group="wing" name="con_shieldgen_m_left-wing_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-106.6416" y="-52.920100000000005" z="1.6457"/>
 					<quaternion qw="-0.49715506127016434" qx="0.5166525695680564" qy="-0.4805639206950215" qz="-0.5049408733093536"/>
 				</offset>
 			</connection>
-			<connection group="wing" name="con_shieldgen_m_right-wing_1" tags="medium shield hittable">
+			<connection group="wing" name="con_shieldgen_m_right-wing_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="103.4416" y="-52.920100000000005" z="1.6457"/>
 					<quaternion qw="-0.49715506127016434" qx="0.5166525695680564" qy="0.4805639206950215" qz="0.5049408733093536"/>
 				</offset>
 			</connection>
-			<connection group="left-side" name="con_shieldgen_m_left-side_2" tags="medium shield hittable">
+			<connection group="left-side" name="con_shieldgen_m_left-side_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-70.2127" y="-48.8335" z="294.66429999999997"/>
 					<quaternion qw="-0.354152173065125" qx="-0.0005592422632562036" qy="-0.001257827498460859" qz="-0.9351867960099335"/>
 				</offset>
 			</connection>
-			<connection group="right-side" name="con_shieldgen_m_right-side_2" tags="medium shield hittable">
+			<connection group="right-side" name="con_shieldgen_m_right-side_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="66.0127" y="-48.8335" z="294.66429999999997"/>
 					<quaternion qw="-0.354152173065125" qx="-0.0005592422632562036" qy="0.001257827498460859" qz="0.9351867960099335"/>
 				</offset>
 			</connection>
-			<connection group="left-side" name="con_shieldgen_m_left-side_1" tags="medium shield hittable">
+			<connection group="left-side" name="con_shieldgen_m_left-side_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-73.6684" y="-30.529899999999998" z="295.9158"/>
 					<quaternion qw="-0.9369212982947525" qx="-0.00018595545543486695" qy="0.0004984445102445869" qz="-0.3495399802244577"/>
 				</offset>
 			</connection>
-			<connection group="right-side" name="con_shieldgen_m_right-side_1" tags="medium shield hittable">
+			<connection group="right-side" name="con_shieldgen_m_right-side_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="69.4684" y="-30.529899999999998" z="295.9158"/>
 					<quaternion qw="-0.9369212982947525" qx="-0.00018595545543486695" qy="-0.0004984445102445869" qz="0.3495399802244577"/>
@@ -413,25 +405,25 @@
 					<quaternion qw="-0.9372213821480228" qx="3.4873497207790306e-06" qy="9.067109274025478e-06" qz="0.34873497207790305"/>
 				</offset>
 			</connection>
-			<connection group="left-front" name="con_shieldgen_m_left-front_2" tags="medium shield hittable">
+			<connection group="left-front" name="con_shieldgen_m_left-front_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-67.96029999999999" y="-48.0997" z="509.70899999999995"/>
 					<quaternion qw="-0.32974440661950327" qx="-0.004854410171996098" qy="-0.001677613161345209" qz="-0.9440562730150754"/>
 				</offset>
 			</connection>
-			<connection group="right-front" name="con_shieldgen_m_right-front_2" tags="medium shield hittable">
+			<connection group="right-front" name="con_shieldgen_m_right-front_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="63.76029999999999" y="-48.0997" z="509.70899999999995"/>
 					<quaternion qw="-0.32974440661950327" qx="-0.004854410171996098" qy="0.001677613161345209" qz="0.9440562730150754"/>
 				</offset>
 			</connection>
-			<connection group="left-front" name="con_shieldgen_m_left-front_1" tags="medium shield hittable">
+			<connection group="left-front" name="con_shieldgen_m_left-front_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-68.0004" y="-27.159100000000002" z="509.7087"/>
 					<quaternion qw="-0.9447086066373812" qx="-0.002589840823997904" qy="-7.017294711769454e-05" qz="-0.32790080259969107"/>
 				</offset>
 			</connection>
-			<connection group="right-front" name="con_shieldgen_m_right-front_1" tags="medium shield hittable">
+			<connection group="right-front" name="con_shieldgen_m_right-front_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="63.8004" y="-27.159100000000002" z="509.7087"/>
 					<quaternion qw="-0.9447086066373812" qx="-0.002589840823997904" qy="7.017294711769454e-05" qz="0.32790080259969107"/>
@@ -485,33 +477,32 @@
 					<quaternion qw="-0.9448175848336366" qx="-0.008493934643584576" qy="-0.000347580401760384" qz="0.3274865854523946"/>
 				</offset>
 			</connection>
-				<!-- docks -->
-				<connection name="con_dockingarea_1" tags="dockarea">
-					<offset>
-						<position x="-63.363400000000006" y="-19.0192" z="342.42"/>
-						<quaternion qw="-0.9327218539943576" qx="-0.0" qy="0.0" qz="-0.360596648738349"/>
-					</offset>
-				</connection>
-				<connection name="con_dockingarea_2" tags="dockarea">
-					<offset>
-						<position x="58.902699999999996" y="-19.0192" z="342.42"/>
-						<quaternion qw="-0.9327218539943576" qx="-0.0" qy="0.0" qz="0.360596648738349"/>
-					</offset>
-				</connection>
-				<connection name="con_dockingarea_3" tags="dockarea">
-					<offset>
-						<position x="58.55479999999999" y="-56.1015" z="342.42"/>
-						<quaternion qw="-0.350207222152633" qx="-0.0" qy="0.0" qz="0.93667224873599"/>
-					</offset>
-				</connection>
-				<connection name="con_dockingarea_4" tags="dockarea">
-					<offset>
-						<position x="-64.0029" y="-56.1015" z="342.42"/>
-						<quaternion qw="-0.350207222152633" qx="-0.0" qy="0.0" qz="-0.93667224873599"/>
-					</offset>
-				</connection>
-
-				<!-- <connection name="con_dockingarea_1" tags="dockarea">
+			<!-- docks -->
+			<connection name="con_dockingarea_1" tags="dockarea">
+				<offset>
+					<position x="-63.363400000000006" y="-19.0192" z="342.42"/>
+					<quaternion qw="-0.9327218539943576" qx="-0.0" qy="0.0" qz="-0.360596648738349"/>
+				</offset>
+			</connection>
+			<connection name="con_dockingarea_2" tags="dockarea">
+				<offset>
+					<position x="58.902699999999996" y="-19.0192" z="342.42"/>
+					<quaternion qw="-0.9327218539943576" qx="-0.0" qy="0.0" qz="0.360596648738349"/>
+				</offset>
+			</connection>
+			<connection name="con_dockingarea_3" tags="dockarea">
+				<offset>
+					<position x="58.55479999999999" y="-56.1015" z="342.42"/>
+					<quaternion qw="-0.350207222152633" qx="-0.0" qy="0.0" qz="0.93667224873599"/>
+				</offset>
+			</connection>
+			<connection name="con_dockingarea_4" tags="dockarea">
+				<offset>
+					<position x="-64.0029" y="-56.1015" z="342.42"/>
+					<quaternion qw="-0.350207222152633" qx="-0.0" qy="0.0" qz="-0.93667224873599"/>
+				</offset>
+			</connection>
+			<!-- <connection name="con_dockingarea_1" tags="dockarea">
 					<offset>
 						<position x="-2.458" y="-4.28" z="346.21"/>
 						<rotation yaw="0" pitch="0" roll="0"/>
@@ -536,7 +527,6 @@
 					</offset>
 				</connection>
  -->
-												
 		</connections>
 	</component>
 </components>

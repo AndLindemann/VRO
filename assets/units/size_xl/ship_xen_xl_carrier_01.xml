@@ -1,10 +1,65 @@
 <diff>
-<add sel="//components/component/connections">
-  <connection name="con_ishield_01" tags="ishield shield  ishield_xen_xl_carrier_01_a">
-  <offset>
-   <position x="0" y="0" z="0"/>
-     <quaternion qx="0" qy="0" qz="0" qw="0"/>
-  </offset>
- </connection>
-</add>
+	<add sel="//components/component/connections">
+		<connection name="con_ishield_01" tags="ishield shield extralarge unhittable ishield_xen_xl_carrier_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="//connection[@name='connection_shieldgen_external03']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen_external04']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen_external01']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen_external02']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen_external05']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen20']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen18']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen17']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen19']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen16']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen15']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen14']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen13']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen12']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen10']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen09']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen11']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen08']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen07']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen06']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen05']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen04']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen03']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen02']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen01']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen21']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen22']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen023']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen024']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen025']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen026']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen027']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen028']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen029']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen031']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen032']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen033']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen034']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen035']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen038']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen039']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen040']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen041']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen042']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen043']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen044']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen045']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen046']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen047']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen048']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen049']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen050']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen051']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen052']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='connection_shieldgen053']/@tags">medium shield hittable vromainshield</replace>
 </diff>

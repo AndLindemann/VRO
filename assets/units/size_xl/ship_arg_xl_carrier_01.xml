@@ -1,17 +1,32 @@
 <diff>
-<add sel="//components/component/connections">
-  <connection name="con_ishield_01" tags="ishield shield  ishield_arg_xl_carrier_01_a">
-  <offset>
-   <position x="0" y="0" z="0"/>
-     <quaternion qx="0" qy="0" qz="0" qw="0"/>
-  </offset>
- </connection>
-</add>
-<replace sel="//components/component/connections/connection[@name='con_turret_l_001']">
-  <connection name="con_turret_l_001" group="group_up_mid_mid " tags="turret large standard highpower argonly missile ">
-    <offset>
-      <position x="0" y="159.3311" z="-242.3653"/>
-    </offset>
-  </connection>
-</replace> 
+	<add sel="//components/component/connections">
+		<connection name="con_ishield_01" tags="ishield shield extralarge unhittable ishield_arg_xl_carrier_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="//components/component/connections/connection[@name='con_turret_l_001']">
+		<connection name="con_turret_l_001" group="group_up_mid_mid " tags="turret large standard highpower argonly missile ">
+			<offset>
+				<position x="0" y="159.3311" z="-242.3653"/>
+			</offset>
+		</connection>
+	</replace>
+	<replace sel="//connection[@name='con_shieldgen_xl_01']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_xl_02']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_xl_003']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_011']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_015']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_017']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_018']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_019']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_020']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_021']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_022']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_023']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_024']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_025']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_026']/@tags">medium shield hittable vromainshield</replace>
 </diff>

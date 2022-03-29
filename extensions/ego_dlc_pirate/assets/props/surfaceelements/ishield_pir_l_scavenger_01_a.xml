@@ -2,7 +2,7 @@
 <components>
 	<component name="ishield_pir_l_scavenger_01_a" class="shieldgenerator">
 		<connections>
-			<connection name="ParentConnection" tags="ishield_pir_l_scavenger_01_a component ishield shield " optional="0"/>
+			<connection name="ParentConnection" tags="ishield_pir_l_scavenger_01_a component ishield shield large unhittable" optional="0"/>
 		</connections>
 		<properties>
 			<recharge/>

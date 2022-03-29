@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <diff>
 	<add sel="//components/component/connections">
-	  <connection name="con_ishield_01" tags="ishield shield  ishield_ter_m_gunboat_01_a">
-	  <offset>
-	   <position x="0" y="0" z="0"/>
-		 <quaternion qx="0" qy="0" qz="0" qw="0"/>
-	  </offset>
-	 </connection>
+		<connection name="con_ishield_01" tags="ishield shield medium unhittable ishield_ter_m_gunboat_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
 	</add>
-	<replace  sel="/components/component/connections/connection[@name='con_weapon_01']/@tags">weapon medium highpower missile platformcollision terronly  </replace>
-
-	</diff>
+	<replace sel="/components/component/connections/connection[@name='con_weapon_01']/@tags">weapon medium highpower missile platformcollision terronly  </replace>
+	<replace sel="//connection[@name='con_shield_01']/@tags">medium shield unhittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_02']/@tags">medium shield unhittable vromainshield</replace>
+</diff>
 <!-- <components>
 	<component name="ship_ter_m_gunboat_01" class="ship_m">
 		<source geometry="extensions\ego_dlc_terran\assets\units\size_m\ship_ter_m_gunboat_01_data"/>

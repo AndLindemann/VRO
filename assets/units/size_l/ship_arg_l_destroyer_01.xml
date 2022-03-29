@@ -1,107 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
- <add sel="//components/component/connections">
-     <connection name="con_ishield_01" tags="ishield shield  ishield_arg_l_destroyer_01_a">
-			<offset>
-					<position x="0" y="0" z="0"/>
-					<quaternion qx="0" qy="0" qz="0" qw="0"/>
-				</offset>
-			</connection>
-    </add> 
-
 	<add sel="//components/component/connections">
-        <connection group="group_front_down_left" name="con_turret_015" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="-106.1493" y="27.4886" z="198.2894"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_down_left" name="con_turret_016" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="-106.1493" y="25.04860" z="20"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-
-        <connection group="group_front_down_left" name="con_shieldgen_009" tags="medium shield hittable">
-            <offset>
-                <position x="-86.5045" y="25.04860" z="99.62886"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-
-
-
-        <connection group="group_front_down_right" name="con_turret_017" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="105.9425" y="27.4886" z="198.2894"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_down_right" name="con_turret_018" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="105.9425" y="25.04860" z="20"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_down_right" name="con_shieldgen_010" tags="medium shield hittable">
-            <offset>
-                <position x="86.34224" y="25.04860" z="99.62886"/>
-                <quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-            </offset>
-        </connection>
-
-
-
-
-        <connection group="group_front_up_back_right_tur" name="con_turret_019" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="134" y="76" z="-130"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_up_back_right_tur" name="con_shieldgen_011" tags="medium shield hittable">
-            <offset>
-                <position x="134" y="76.2" z="-103.5"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_up_back_left_tur" name="con_turret_020" tags="turret medium standard missile hittable">
-            <offset>
-                <position x="-134" y="76" z="-130"/>
-            </offset>
-        </connection>
-
-        <connection group="group_front_up_back_left_tur" name="con_shieldgen_012" tags="medium shield hittable">
-            <offset>
-                <position x="-134" y="76.2" z="-103.5"/>
-            </offset>
-        </connection>
-
-
-
-
-        <connection name="con_shieldgen_013" group="group_back_up_mid " tags="medium shield hittable ">
+		<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_arg_l_destroyer_01_a">
 			<offset>
-					<position x="-11" y="81.58002" z="-260.0025"/>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
 			</offset>
 		</connection>
-
-
-    </add>
-
-    <replace sel="//components/component/connections/connection[@name='con_shieldgen_006']">
-    <connection name="con_shieldgen_006" group="group_back_up_mid " tags="medium shield hittable ">
+	</add>
+	<add sel="//components/component/connections">
+		<connection group="group_front_down_left" name="con_turret_015" tags="turret medium standard missile hittable">
 			<offset>
-					<position x="11" y="81.58002" z="-260.0025"/>
+				<position x="-106.1493" y="27.4886" z="198.2894"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_down_left" name="con_turret_016" tags="turret medium standard missile hittable">
+			<offset>
+				<position x="-106.1493" y="25.04860" z="20"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_down_left" name="con_shieldgen_013" tags="medium shield hittable vromainshield">
+			<offset>
+				<position x="-86.5045" y="25.04860" z="99.62886"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_down_right" name="con_turret_017" tags="turret medium standard missile hittable">
+			<offset>
+				<position x="105.9425" y="27.4886" z="198.2894"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_down_right" name="con_turret_018" tags="turret medium standard missile hittable">
+			<offset>
+				<position x="105.9425" y="25.04860" z="20"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_down_right" name="con_shieldgen_014" tags="medium shield hittable vromainshield">
+			<offset>
+				<position x="86.34224" y="25.04860" z="99.62886"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+		<connection group="group_front_up_back_right_tur" name="con_turret_019" tags="turret medium standard missile hittable">
+			<offset>
+				<position x="134" y="76" z="-130"/>
+			</offset>
+		</connection>
+		<connection group="group_front_up_back_right_tur" name="con_shieldgen_011" tags="medium shield hittable vromainshield">
+			<offset>
+				<position x="134" y="76.2" z="-103.5"/>
+			</offset>
+		</connection>
+		<connection group="group_front_up_back_left_tur" name="con_turret_020" tags="turret medium standard missile hittable">
+			<offset>
+				<position x="-134" y="76" z="-130"/>
+			</offset>
+		</connection>
+		<connection group="group_front_up_back_left_tur" name="con_shieldgen_012" tags="medium shield hittable vromainshield">
+			<offset>
+				<position x="-134" y="76.2" z="-103.5"/>
+			</offset>
+		</connection>
+		<connection name="con_shieldgen_013" group="group_back_up_mid " tags="medium shield hittable vromainshield ">
+			<offset>
+				<position x="-11" y="81.58002" z="-260.0025"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="//components/component/connections/connection[@name='con_shieldgen_006']">
+		<connection name="con_shieldgen_006" group="group_back_up_mid " tags="medium shield hittable vromainshield ">
+			<offset>
+				<position x="11" y="81.58002" z="-260.0025"/>
 			</offset>
 		</connection>
 	</replace>
-
-
+	<replace sel="//connection[@name='con_shieldgen_003']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_001']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_004']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_005']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_007']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_008']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_009']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_010']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgenerator_l_01']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgenerator_l_003']/@tags">large shield hittable vromainshield</replace>
 </diff>

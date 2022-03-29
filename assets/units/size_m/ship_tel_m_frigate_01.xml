@@ -1,19 +1,19 @@
 <diff>
-<add sel="//components/component/connections">
-  <connection name="con_ishield_01" tags="ishield shield  ishield_tel_m_frigate_01_a">
-  <offset>
-   <position x="0" y="0" z="0"/>
-  </offset>
- </connection>
- <connection name="con_shield_inside" tags="medium shield unhittable platformcollision">
-  <offset>
-    <position x="0" y="0" z="-20"/>
-  </offset>
-</connection>
-
-</add>
-
-
-<replace  sel="/components/component/connections/connection[@name='con_primaryweapon_01']/@tags">weapon medium standard missile platformcollision highpower </replace>
-<replace  sel="/components/component/connections/connection[@name='con_primaryweapon_02']/@tags">weapon medium standard missile platformcollision highpower </replace>
+	<add sel="//components/component/connections">
+		<connection name="con_ishield_01" tags="ishield shield medium unhittable ishield_tel_m_frigate_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+			</offset>
+		</connection>
+		<connection name="con_shield_inside" tags="medium shield unhittable platformcollision vromainshield">
+			<offset>
+				<position x="0" y="0" z="-20"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="/components/component/connections/connection[@name='con_primaryweapon_01']/@tags">weapon medium standard missile platformcollision highpower </replace>
+	<replace sel="/components/component/connections/connection[@name='con_primaryweapon_02']/@tags">weapon medium standard missile platformcollision highpower </replace>
+	<replace sel="//connection[@name='con_shield_b']/@tags">medium shield unhittable platformcollision vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_l']/@tags">medium shield unhittable platformcollision vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_back_r']/@tags">medium shield unhittable platformcollision vromainshield</replace>
 </diff>

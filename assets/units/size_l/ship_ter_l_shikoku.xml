@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="ship_ter_l_shikoku" class="ship_l">
-		<source geometry="extensions\vro\assets\units\size_l\ship_ter_l_shikoku_data" />
+		<source geometry="extensions\vro\assets\units\size_l\ship_ter_l_shikoku_data"/>
 		<layers>
 			<layer>
 				<waypoints>
@@ -228,25 +228,25 @@
 					<position x="1.788139E-06" y="113.867" z="-150.1"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgenerator_l_01" tags="large shield ">
+			<connection name="con_shieldgenerator_l_01" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="77.7984" y="-41.5545" z="-307.934"/>
-					<rotation yaw="0" pitch="0" roll="153.27"/> 
+					<rotation yaw="0" pitch="0" roll="153.27"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgenerator_l_02" tags="large shield ">
+			<connection name="con_shieldgenerator_l_02" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="-77.7984" y="-41.5545" z="-307.934"/>
 					<rotation yaw="0" pitch="0" roll="-153.27"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgenerator_l_03" tags="large shield ">
+			<connection name="con_shieldgenerator_l_03" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="-77.7984" y="-41.5545" z="-402.129"/>
 					<rotation yaw="0" pitch="0" roll="-153.27"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgenerator_l_04" tags="large shield ">
+			<connection name="con_shieldgenerator_l_04" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="77.7984" y="-41.5545" z="-402.129"/>
 					<rotation yaw="0" pitch="0" roll="153.27"/>
@@ -257,12 +257,12 @@
 					<position x="0" y="61.31" z="-121.998"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_001" group="turret_missile " tags="medium shield hittable ">
+			<connection name="con_shieldgen_001" group="turret_missile " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-25.7264" y="38.4537" z="-297.807"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_002" group="group_back_up_mid " tags="medium shield hittable ">
+			<connection name="con_shieldgen_002" group="group_back_up_mid " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="25.7264" y="38.4537" z="-297.807"/>
 				</offset>
@@ -277,7 +277,7 @@
 					<position x="0" y="38.4523" z="96.7207"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_003" group="group_front_up_mid " tags="medium shield hittable ">
+			<connection name="con_shieldgen_003" group="group_front_up_mid " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="0" y="38.4537" z="157.132"/>
 					<rotation yaw="-90" pitch="0" roll="0"/>
@@ -288,7 +288,7 @@
 					<position x="0" y="29.8476" z="302.526"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_004" group="group_front_up_front " tags="medium shield hittable ">
+			<connection name="con_shieldgen_004" group="group_front_up_front " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="47.9659" y="38.4537" z="-212.264"/>
 				</offset>
@@ -302,7 +302,7 @@
 			<connection name="con_turret_002" group="group_point_defense " tags="turret medium standard hittable ">
 				<offset>
 					<position x="0" y="-70.2156" z="299.791"/>
-					<rotation yaw="180" pitch="180" roll="0"/> 
+					<rotation yaw="180" pitch="180" roll="0"/>
 				</offset>
 			</connection>
 			<connection name="con_turret_003" group="group_point_defense " tags="turret medium standard hittable ">
@@ -311,7 +311,7 @@
 					<rotation yaw="0" pitch="-8" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_005" group="group_point_defense " tags="medium shield hittable ">
+			<connection name="con_shieldgen_005" group="group_point_defense " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-47.9659" y="38.4537" z="-212.264"/>
 				</offset>
@@ -328,7 +328,7 @@
 					<rotation yaw="0" pitch="180" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_006" group="group_rear_defense " tags="medium shield hittable ">
+			<connection name="con_shieldgen_006" group="group_rear_defense " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-47.9659" y="38.4537" z="-235.18"/>
 				</offset>
@@ -357,11 +357,11 @@
 					<rotation yaw="-90" pitch="0" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_007" group="group_fighter_defense " tags="medium shield hittable ">
+			<connection name="con_shieldgen_007" group="group_fighter_defense " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="47.9659" y="38.4537" z="-235.18"/>
 				</offset>
-			</connection>			
+			</connection>
 			<connection name="con_shipstorage_s_01" tags="dockingbay ">
 				<offset>
 					<position x="-0.470993" y="124.8929" z="-36.36061"/>
@@ -445,14 +445,12 @@
 					<position x="20.05" y="30.0985" z="-372.2"/>
 				</offset>
 			</connection>
-
-			<connection name="con_ishield_01" tags="ishield shield  ishield_ter_l_shikoku">
+			<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_ter_l_shikoku">
 				<offset>
-				 <position x="0" y="0" z="0"/>
-				   <quaternion qx="0" qy="0" qz="0" qw="0"/>
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="0" qy="0" qz="0" qw="0"/>
 				</offset>
-			   </connection>
-
+			</connection>
 		</connections>
 	</component>
 </components>

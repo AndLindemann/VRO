@@ -399,19 +399,19 @@
 					<quaternion qx="-7.906446E-03" qy="-3.546138E-02" qz="-4.464936E-02" qw="-0.9983419"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_05" group="group_front_mid_left " tags="medium shield hittable ">
+			<connection name="con_shieldgen_05" group="group_front_mid_left " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-32.50572" y="6.272362" z="232.0131"/>
 					<quaternion qx="-3.166875E-02" qy="-1.389165E-02" qz="-0.8546926" qw="-0.5179814"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_06" group="group_back_down_mid" tags="medium shield hittable ">
+			<connection name="con_shieldgen_06" group="group_back_down_mid" tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="0" y="-33.00225" z="-255.423"/>
 					<quaternion qx="1.139987E-14" qy="-1.509958E-07" qz="-1" qw="7.54979E-08"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_03" group="group_mid_mid_down" tags="medium shield hittable ">
+			<connection name="con_shieldgen_03" group="group_mid_mid_down" tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-1.430511E-05" y="-24.94496" z="-56.08788"/>
 					<quaternion qx="1.605792E-07" qy="2.614582E-02" qz="-0.9996581" qw="9.165257E-08"/>
@@ -429,13 +429,13 @@
 					<quaternion qx="3.264641E-07" qy="3.264641E-07" qz="-0.9999982" qw="-1.913082E-03"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_01" group="group_back_up_mid" tags="medium shield hittable ">
+			<connection name="con_shieldgen_01" group="group_back_up_mid" tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="0" y="16.16245" z="-273.7814"/>
 					<quaternion qx="1.230135E-02" qy="-0.9999214" qz="-1.897001E-03" qw="1.518123E-03"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_l_01" tags="large shield ">
+			<connection name="con_shieldgen_l_01" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="5.193055E-06" y="-26.21284" z="-181.0515"/>
 					<quaternion qx="-1" qy="-4.371136E-08" qz="-7.549792E-08" qw="-3.258414E-07"/>
@@ -452,18 +452,18 @@
 					<quaternion qx="0.7071067" qy="-1.067702E-07" qz="-1.067701E-07" qw="-0.7071068"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_07" group="group_front_down_mid " tags="medium shield hittable ">
+			<connection name="con_shieldgen_07" group="group_front_down_mid " tags="large shield hittable vromainshield ">
 				<offset>
 					<position x="9.536743E-07" y="27.69783" z="-129.8475"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_09" group="group_mid_mid_right " tags="medium shield hittable ">
+			<connection name="con_shieldgen_09" group="group_mid_mid_right " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="27.855" y="14.914" z="63.727"/>
 					<quaternion qx="8.570193E-06" qy="-1.588322E-03" qz="5.340632E-03" qw="-0.9999845"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_10" group="group_mid_mid_left " tags="medium shield hittable ">
+			<connection name="con_shieldgen_10" group="group_mid_mid_left " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="-27.85509" y="14.91373" z="63.72742"/>
 					<quaternion qx="-8.410671E-06" qy="-1.584657E-03" qz="-5.340394E-03" qw="-0.9999844"/>
@@ -492,14 +492,12 @@
 					<quaternion qx="3.002086E-02" qy="-8.297981E-03" qz="-0.8737201" qw="0.4854307"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_011" group="group_front_mid_left " tags="medium shield hittable ">
+			<connection name="con_shieldgen_011" group="group_front_mid_left " tags="medium shield hittable vromainshield ">
 				<offset>
 					<position x="32.506" y="6.272362" z="232.0131"/>
 					<quaternion qx="-3.166441E-02" qy="0.0138908" qz="0.8546929" qw="-0.5179813"/>
 				</offset>
 			</connection>
-
-
 			<!-- additions -->
 			<connection name="con_buildmodule" tags="buildmodule">
 				<offset>
@@ -511,20 +509,17 @@
 					<position x="0" y="0" z="0"/>
 				</offset>
 			</connection>
-
 			<connection name="con_dockarea_new" tags="dockingbay ">
 				<offset>
 					<position x="9.536743E-07" y="28" z="-95"/>
 				</offset>
 			</connection>
-
-			<connection name="con_ishield_01" tags="ishield shield  ishield_ter_l_carrier_01_a">
+			<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_ter_l_carrier_01_a">
 				<offset>
-				 <position x="0" y="0" z="0"/>
-				   <quaternion qx="0" qy="0" qz="0" qw="0"/>
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="0" qy="0" qz="0" qw="0"/>
 				</offset>
-			   </connection>
-			  
+			</connection>
 		</connections>
 	</component>
 </components>

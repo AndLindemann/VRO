@@ -1,4 +1,3 @@
-
 <components>
 	<component name="ship_arg_l_trans_container_03p" class="ship_l">
 		<source geometry="assets\units\size_l\ship_arg_l_trans_container_03_data"/>
@@ -332,7 +331,7 @@
 					<position x="2.662848E-06" y="229.3213" z="90.99336"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_l_01" tags="large shield ">
+			<connection name="con_shield_l_01" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="2.662848E-06" y="103.8971" z="389.8236"/>
 				</offset>
@@ -354,19 +353,19 @@
 					<quaternion qx="-0.5000001" qy="-0.5" qz="-0.5" qw="-0.5"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_001" group="group_front_mid_right " tags="medium shield hittable ">
+			<connection name="con_shield_m_001" group="group_front_mid_right " tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="2.662848E-06" y="-110.4448" z="49.8152"/>
 					<quaternion qx="-1" qy="1.192483E-08" qz="-7.549791E-08" qw="6.278329E-07"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_002" group="group_front_mid_left" tags="medium shield hittable ">
+			<connection name="con_shield_m_002" group="group_front_mid_left" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="8.282682E-06" y="96.33418" z="48.48629"/>
 					<quaternion qx="-2.753575E-07" qy="0.7071069" qz="-3.989921E-07" qw="-0.7071066"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_003" group="group_back_mid_top" tags="medium shield hittable ">
+			<connection name="con_shield_m_003" group="group_back_mid_top" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="2.662848E-06" y="75.77682" z="-734.2194"/>
 				</offset>
@@ -376,13 +375,13 @@
 					<position x="-132.2807" y="76.836" z="-861.4772"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_004" group="group_front_mid_mid" tags="medium shield hittable ">
+			<connection name="con_shield_m_004" group="group_front_mid_mid" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-18.5735" y="-127.4435" z="638.5166"/>
 					<quaternion qx="-0.5000001" qy="-0.5" qz="-0.4999999" qw="-0.5"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_l_02" tags="large shield ">
+			<connection name="con_shield_l_02" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="2.662848E-06" y="103.9134" z="-496.0661"/>
 				</offset>
@@ -403,7 +402,7 @@
 					<quaternion qx="-3.139165E-07" qy="5.205486E-07" qz="-1" qw="-6.464356E-14"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_005" group="group_back_mid_mid" tags="medium shield hittable ">
+			<connection name="con_shield_m_005" group="group_back_mid_mid" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="2.662848E-06" y="71.18539" z="-863.2751"/>
 				</offset>
@@ -413,41 +412,37 @@
 					<position x="2.662848E-06" y="227.4373" z="84.07767"/>
 				</offset>
 			</connection>
-			<connection name="con_ishield_01" tags="ishield shield  ishield_arg_l_trans_container_03_p">
+			<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_arg_l_trans_container_03_p">
 				<offset>
-  				 <position x="0" y="0" z="0"/>
-     				<quaternion qx="0" qy="0" qz="0" qw="0"/>
- 				 </offset>
- 			</connection>
-<!-- new turrets -->
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="0" qy="0" qz="0" qw="0"/>
+				</offset>
+			</connection>
+			<!-- new turrets -->
 			<connection name="con_turret_08" group="group_top_l_frw" tags="turret large standard hittable ">
 				<offset>
 					<position x="0" y="100" z="-187"/>
 					<rotation yaw="0" pitch="0" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_006" group="group_top_l_frw" tags="medium shield hittable ">
+			<connection name="con_shield_m_006" group="group_top_l_frw" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="0" y="101" z="-98"/>
 					<rotation yaw="0" pitch="0" roll="0"/>
 				</offset>
 			</connection>
-
-
 			<connection name="con_turret_09" group="group_top_l_rear" tags="turret large standard hittable ">
 				<offset>
 					<position x="0" y="100" z="-341"/>
 					<rotation yaw="180" pitch="0" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_m_007" group="group_top_l_rear" tags="medium shield hittable ">
+			<connection name="con_shield_m_007" group="group_top_l_rear" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="0" y="101" z="-429"/>
 					<rotation yaw="180" pitch="0" roll="0"/>
 				</offset>
 			</connection>
-
-
 		</connections>
 	</component>
 </components>

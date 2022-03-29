@@ -1,10 +1,21 @@
 <diff>
-<add sel="//components/component/connections">
-  <connection name="con_ishield_01" tags="ishield shield  ishield_tel_l_trans_container_01_a">
-  <offset>
-   <position x="0" y="0" z="0"/>
-     <quaternion qx="0" qy="0" qz="0" qw="0"/>
-  </offset>
- </connection>
-</add>
+	<add sel="//components/component/connections">
+		<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_tel_l_trans_container_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="//connection[@name='con_shield_l_003']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_l_001']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_l_002']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_004']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_007']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_009']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_002']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_001']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_003']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_010']/@tags">shield medium hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_011']/@tags">shield medium hittable vromainshield</replace>
 </diff>

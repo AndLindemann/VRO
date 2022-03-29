@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<diff>
+	<replace sel="//connection[@name='con_shield_002']/@tags">small shield unhittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_003']/@tags">small shield unhittable vromainshield</replace>
+</diff>

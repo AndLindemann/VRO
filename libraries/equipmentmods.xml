@@ -4,7 +4,6 @@
     Since there is 0 recharge delay on all shields in VRO the mods for it are useless.
   -->
   <!-- remove the basic mod that only affects rechargedelay -->
-  <remove sel="//equipmentmods/shield/rechargedelay[@ware='mod_shield_rechargedelay_01_mk1']" />
 
   <!-- 
     The medium tiers have a 50% chance of getting either delay or rate mod.

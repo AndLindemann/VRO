@@ -8,16 +8,14 @@
 			</offset>
 		</connection>
 	</replace>
-
 	<replace sel="//components/component/connections/connection[@name='con_shield_m_007']">
-		<connection group="group_front_bottom_right" name="con_shield_m_007" tags="medium shield hittable">
+		<connection group="group_front_bottom_right" name="con_shield_m_007" tags="medium shield hittable vromainshield">
 			<offset>
 				<position x="161.76839999999999" y="-93.02629999999999" z="264.7175"/>
 				<quaternion qw="-0.45652795774209465" qx="-0.22516657757013966" qy="0.3788557409382717" qz="0.7728845733376333"/>
 			</offset>
 		</connection>
 	</replace>
-
 	<replace sel="//components/component/connections/connection[@name='con_turret_l_02']">
 		<connection group="group_front_bottom_left" name="con_turret_l_02" tags="turret large standard hittable">
 			<offset>
@@ -26,30 +24,40 @@
 			</offset>
 		</connection>
 	</replace>
-
-		<replace sel="//components/component/connections/connection[@name='con_shield_m_008']">
-        <connection group="group_front_bottom_left" name="con_shield_m_008" tags="medium shield hittable">
+	<replace sel="//components/component/connections/connection[@name='con_shield_m_008']">
+		<connection group="group_front_bottom_left" name="con_shield_m_008" tags="medium shield hittable vromainshield">
 			<offset>
 				<position x="-161.768" y="-93.02629999999999" z="264.7175"/>
 				<quaternion qw="-0.4582060249600056" qx="-0.22173146197573101" qy="-0.3768243800276085" qz="-0.773877111741434"/>
 			</offset>
-        </connection>
+		</connection>
 	</replace>
-
-<add sel="//components/component/connections">
-			<connection name="con_shield_l_04" tags="large shield hittable ">
-				<offset>
-					<position x="0" y="-51" z="-100"/>
-					<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
-				</offset>
-			</connection>
-</add>
-<add sel="//components/component/connections">
-  <connection name="con_ishield_01" tags="ishield shield  ishield_tel_l_destroyer_01_a">
-  <offset>
-   <position x="0" y="0" z="0"/>
-     <quaternion qx="0" qy="0" qz="0" qw="0"/>
-  </offset>
- </connection>
-</add>
+	<add sel="//components/component/connections">
+		<connection name="con_shield_l_04" tags="large shield hittable vromainshield">
+			<offset>
+				<position x="0" y="-51" z="-100"/>
+				<quaternion qx="-0" qy="-0" qz="-1" qw="0"/>
+			</offset>
+		</connection>
+	</add>
+	<add sel="//components/component/connections">
+		<connection name="con_ishield_01" tags="ishield shield large unhittable ishield_tel_l_destroyer_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
+	</add>
+	<replace sel="//connection[@name='con_shield_l_01']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_l_03']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_l_02']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_02']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_01']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_03']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_04']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_06']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_05']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_009']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_010']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shield_m_011']/@tags">medium shield hittable vromainshield</replace>
 </diff>

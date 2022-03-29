@@ -1,45 +1,80 @@
 <diff>
 	<add sel="//components/component/connections">
-	  <connection name="con_ishield_01" tags="ishield shield  ishield_spl_xl_carrier_01_a">
-	  <offset>
-	   <position x="0" y="0" z="0"/>
-		 <quaternion qx="0" qy="0" qz="0" qw="0"/>
-	  </offset>
-	 </connection>
+		<connection name="con_ishield_01" tags="ishield shield extralarge unhittable ishield_spl_xl_carrier_01_a">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<quaternion qx="0" qy="0" qz="0" qw="0"/>
+			</offset>
+		</connection>
 	</add>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_034']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_035']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_027']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_030']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_058']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_059']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_065']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_062']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_001']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_003']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_007']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_010']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_039']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_038']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_042']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_045']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_069']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_068']"/>
-
 	<remove sel="//components/component/connections/connection[@name='con_turret_072']"/>
 	<remove sel="//components/component/connections/connection[@name='con_turret_075']"/>
-
-
-
-
-
+	<replace sel="//connection[@name='con_shieldgen_xl_01']/@tags">extralarge shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_002']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_001']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_003']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_004']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_005']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_006']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_007']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_008']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_009']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_010']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_011']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_012']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_013']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_014']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_015']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_016']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_017']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_018']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_019']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_020']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_021']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_022']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_023']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_024']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_025']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_026']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_027']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_028']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_029']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_030']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_031']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_033']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_034']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_035']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_036']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_037']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_038']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_039']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_040']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_041']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_042']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_043']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_044']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_045']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_046']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_047']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_048']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_049']/@tags">medium shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgen_m_050']/@tags">medium shield hittable vromainshield</replace>
 </diff>

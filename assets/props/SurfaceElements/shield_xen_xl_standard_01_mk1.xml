@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<diff>
+	<replace sel="//connection[@name='small_Con_shieldgen_01']/@tags">extralarge shield component hittable vromainshield</replace>
+</diff>

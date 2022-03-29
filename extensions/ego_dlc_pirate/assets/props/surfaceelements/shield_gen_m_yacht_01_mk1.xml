@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//connection[@name='con_shieldgen_01']/@tags">component mandatory medium shield ship_gen_m_yacht_01 unhittable vromainshield</replace>
+</diff>

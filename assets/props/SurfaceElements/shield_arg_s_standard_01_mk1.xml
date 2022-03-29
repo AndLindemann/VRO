@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<diff>
+	<replace sel="//connection[@name='Connection01']/@tags">small shield component unhittable vromainshield</replace>
+</diff>
