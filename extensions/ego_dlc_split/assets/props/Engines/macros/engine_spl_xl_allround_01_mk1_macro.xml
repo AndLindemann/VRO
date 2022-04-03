@@ -7,7 +7,7 @@
         <properties>
           <identification name="{20107,4084}" basename="{20107,4081}" shortname="{20107,4085}" makerrace="split" description="{20107,4082}" mk="1" />
           <boost duration="66" thrust="5" attack="10" release="3" />
-          <travel charge="15" thrust="16.6" attack="21" release="22.5" />
+          <travel charge="15" thrust="25" attack="21" release="22.5" />
           <thrust forward="16500" reverse="16509" />
           <angular />
           <hull max="29090" threshold="0.3" />

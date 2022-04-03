@@ -10,8 +10,8 @@
           <identification name="{6699,15071}" basename="{6699,15072}" shortname="{6699,15073}" makerrace="terran" description="{6699,15074}"  />
           <bullet class="bullet_ter_m_graviton" />
           <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="9500" />
-          <rotationspeed max="33.3" />
-          <rotationacceleration max="66.6" />
+          <rotationspeed max="100" />
+          <rotationacceleration max="50" />
           <reload />
           <hull max="1000" hittable="0" />
           <effects>

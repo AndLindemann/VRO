@@ -7,8 +7,7 @@
         <properties>
           <identification name="{20105,4334}" basename="{20105,4331}" shortname="{20105,4335}" makerrace="split" description="{20105,4332}" mk="1" />
           <bullet class="bullet_gen_turret_m_shotgun_01_mk1_macro" />
-          <rotationspeed max="66.7" />
-		  <rotationacceleration max="133.4" />
+          <rotationspeed max="200" />
           <reload rate="1" time="1" />
           <hull max="4000" threshold="0.2" integrated="0" />
         </properties>

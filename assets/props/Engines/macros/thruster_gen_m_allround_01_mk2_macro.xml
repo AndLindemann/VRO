@@ -9,7 +9,7 @@
     <properties>
       <identification name="{20107, 11014}" basename="{20107, 11011}" shortname="{20107, 11015}" description="{20107, 11012}" unique="0" mk="2" type="thrustertypes"/>
       <component virtual="1" />
-      <thrust strafe="565.358" pitch="330.002" yaw="533.28" roll="427.991" />
+      <thrust strafe="416.132" pitch="330.002" yaw="355.4" roll="427.991" />
       <angular />
       <hull integrated="1" />
     </properties>
@@ -24,7 +24,7 @@
     <properties>
       <identification name="{20107, 11014}" basename="{20107, 11011}" shortname="{20107, 11015}" description="{20107, 11012}" unique="0" mk="2" />
       <component virtual="1" />
-      <thrust strafe="471.132 x1.2" pitch="413.002" yaw="444.4 x1.2" roll="569.991" />
+      <thrust strafe="471.132" pitch="413.002" yaw="444.4" roll="569.991" />
       <angular />
       <hull integrated="1" />
     </properties>

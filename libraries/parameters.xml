@@ -1,84 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diff>
-	<replace sel="//parameters/lowattentioncombat">
-		<lowattentioncombat>
-			<attack hitchance="0.8" missmultiplier="0.4" firingarea="36000000" laserweaponfactor="0.85" missileweaponfactor="1.0" turretfactor="0.9" moduleturretchance="0.5" dronebulletfactor="0.1" dronemissilefactor="0.182" minspeed="35" surfaceelementchance="0.2" surfaceelementfactor="0.8" shieldgeneratorchance="0.5" missilehitfactor="0.7" guidedmissilehitfactor="0.95" bullethitfactor="0.5" beamhitfactor="0.9"/>
-			<defence maxspeed="600" minspeedfactor="0.05" maxspeedfactor="0.65" maxsize="100" sizefactor="0.1" capshipfactor="1.15" countermeasurefactor="0.3" dronedistractionfactor="0.003" dronedamageamount="20000"/>
-		</lowattentioncombat>
-	</replace>
-	<replace sel="//parameters/shipyardupgraderesources">
-		<shipyardupgraderesources>
-			<factor countermeasure="200" drone="120" engine="40" missile="300" mine="200" satellite="200" navbeacon="50" resourceprobe="50" lasertower="200" scanner="20" shield="80" thruster="15" turret="101" weapon="12" />
-		</shipyardupgraderesources>
-	</replace>
-	<replace sel="//parameters/wharfupgraderesources">
-		<wharfupgraderesources>
-			<factor countermeasure="100" drone="20" engine="40" missile="100" mine="200" satellite="200" navbeacon="100" resourceprobe="100" lasertower="200" scanner="20" shield="55" thruster="15" turret="20" weapon="35" />
-		</wharfupgraderesources>
-	</replace>
-	<replace sel="//parameters/shipupgraderesources">
-		<shipupgraderesources>
-			<factor countermeasure="400" drone="120" missile="150" mine="5" satellite="4" navbeacon="5" resourceprobe="4" lasertower="4" scanner="0" engine="0" shield="0" thruster="0" turret="0" weapon="0"/>
-		</shipupgraderesources>
-	</replace>
-</diff>
-<!-- 3.00b6:
-  - reduced surfaceelementchance to mitigate loss of surface elements to more closely match high attention,
-	  but this effectively decreases the time taken to destroy hulls due to surface elements effectively soaking up damage much less.
-  - reduced damage done in general to simulate bullets missing or not firing due to manoeuvre. -->
-<!-- 4.00b7:
-  - added param hitchance - global hitchance. can effectively be used to control the duration of low attention combat relative to high to account for events in low occurring faster than in high.
-  - added param missmultiplier - multiplied by hitchance whenever there's a chance to miss. exaggerates the effect of having a chance to miss.
-  - defence minspeed changed to threshold. ships slower than minspeed will not be affected by maneouverfactor.
-  - maneouverfactor and sizefactor increased from 0.4 to 0.7 to make speed and agility more significant in low attention. supported by changes in code.
-  - surfaceelementchance increased from 0.15 to 0.6 to improve consistency with how ships fight in high attention. -->
-<!-- 4.0b9
+<replace sel="//parameters/lowattentioncombat"> 
+  <!-- VRO approach -->
   <lowattentioncombat>
-    <attack hitchance="0.8" missmultiplier="0.3" firingarea="36000000" laserweaponfactor="1.0" missileweaponfactor="0.52" turretfactor="0.8" dronebulletfactor="0.2275" dronemissilefactor="0.182" minspeed="100" surfaceelementchance="0.6" surfaceelementfactor="0.7" shieldgeneratorchance="0.2" missilehitfactor="0.3" guidedmissilehitfactor="0.8" bullethitfactor="0.4" beamhitfactor="0.9" />
-    <defence maneouverfactor="0.7" minspeed="190" maxsize="300.0" sizefactor="0.7" capshipfactor="0.85" countermeasurefactor="0.8" dronedistractionfactor="0.003" dronedamageamount="200000"/>
-  </lowattentioncombat>-->
-<!-- VRO approach
-  <lowattentioncombat>
-	<attack firingarea="40000000" laserweaponfactor="1.1" missileweaponfactor="0.8" turretfactor="0.75" dronebulletfactor="0.3" dronemissilefactor="0.20" minspeed="70" surfaceelementchance="0.15" surfaceelementfactor="0.7" shieldgeneratorchance="0.35"/>
-	<defence maneouverfactor="0.4" minspeed="25" maxsize="180.0" sizefactor="0.35" capshipfactor="2.45" countermeasurefactor="0.7" dronedistractionfactor="0.004" dronedamageamount="18000"/>
-  </lowattentioncombat>-->
-<!-- Shuulo SWI
-  <lowattentioncombat>
-	<attack hitchance="0.8" missmultiplier="0.3" firingarea="36000000" laserweaponfactor="0.53" missileweaponfactor="1.0" turretfactor="0.52" dronebulletfactor="0.10" dronemissilefactor="0.122" minspeed="60" surfaceelementchance="0.01" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.6" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="1.0" />
-	<defence maneouverfactor="0.55" minspeed="281" maxsize="400.0" sizefactor="0.7" capshipfactor="2.0" countermeasurefactor="0.3" dronedistractionfactor="0.003" dronedamageamount="40000"/> 
-  </lowattentioncombat>-->
-<!-- DA1 = Stations too strong
-  <lowattentioncombat>
-	<attack hitchance="0.9" missmultiplier="0.25" firingarea="36000000" laserweaponfactor="1.0" missileweaponfactor="1.0" turretfactor="1.0" dronebulletfactor="0.5" dronemissilefactor="0.2" minspeed="100" surfaceelementchance="0.5" surfaceelementfactor="0.5" shieldgeneratorchance="0.25" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.85" beamhitfactor="0.95" />
-	<defence maneouverfactor="0.4" minspeed="250" maxsize="400.0" sizefactor="0.7" capshipfactor="1.0" countermeasurefactor="0.6" dronedistractionfactor="0.004" dronedamageamount="18000"/>
-  </lowattentioncombat>-->
-<!-- DA2 = Stations still too strong
-  <lowattentioncombat>
-    <attack hitchance="0.9" missmultiplier="0.3" firingarea="36000000" laserweaponfactor="1.0" missileweaponfactor="1.0" turretfactor="1.0" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="25" surfaceelementchance="0.5" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.85" beamhitfactor="0.95" />
-    <defence maneouverfactor="0.6" minspeed="250" maxsize="400.0" sizefactor="0.8" capshipfactor="1.0" countermeasurefactor="0.6" dronedistractionfactor="0.004" dronedamageamount="18000"/>
-  </lowattentioncombat>-->
-<!-- DA3 = Stations still too strong
-  <lowattentioncombat>
-    <attack hitchance="0.8" missmultiplier="0.3" firingarea="36000000" laserweaponfactor="1.0" missileweaponfactor="1.0" turretfactor="0.9" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="25" surfaceelementchance="0.5" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.75" bullethitfactor="0.75" beamhitfactor="0.8" />
-    <defence maneouverfactor="0.7" minspeed="250" maxsize="400.0" sizefactor="0.8" capshipfactor="1.0" countermeasurefactor="0.6" dronedistractionfactor="0.004" dronedamageamount="18000"/>
-  </lowattentioncombat>-->
-<!-- DA4 = Everything Insta dies
-  <lowattentioncombat>
-    <attack hitchance="0.8" missmultiplier="0.4" firingarea="36000000" laserweaponfactor="1.0" missileweaponfactor="1.0" turretfactor="0.9" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="25" surfaceelementchance="0.5" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9" />
-    <defence maneouverfactor="0.8" minspeed="180" maxsize="600.0" sizefactor="0.8" capshipfactor="1.6" countermeasurefactor="0.6" dronedistractionfactor="0.002" dronedamageamount="20000"/>
-  </lowattentioncombat>-->
-<!-- DA5 = S/XL insta die to station + small fleet
-  <lowattentioncombat>
-    <attack hitchance="0.7" missmultiplier="0.5" firingarea="36000000" laserweaponfactor="0.8" missileweaponfactor="0.9" turretfactor="0.7" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="10" surfaceelementchance="0.5" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9" />
-    <defence maneouverfactor="0.9" minspeed="180" maxsize="400.0" sizefactor="0.9" capshipfactor="1.4" countermeasurefactor="0.6" dronedistractionfactor="0.002" dronedamageamount="20000"/>
-  </lowattentioncombat>-->
-<!-- DA6 = Stations too weak
-  <lowattentioncombat>
-	<attack hitchance="0.7" missmultiplier="0.5" firingarea="36000000" laserweaponfactor="0.55" missileweaponfactor="0.8" turretfactor="0.55" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="30" surfaceelementchance="0.15" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9"/>
-	<defence maneouverfactor="0.6" minspeed="130" maxsize="400.0" sizefactor="0.7" capshipfactor="1.35" countermeasurefactor="0.7" dronedistractionfactor="0.002" dronedamageamount="20000"/>
-  </lowattentioncombat>-->
-<!-- DA7 = Fairly balanced
-  <lowattentioncombat>
-	<attack hitchance="0.7" missmultiplier="0.4" firingarea="36000000" laserweaponfactor="0.55" missileweaponfactor="0.8" turretfactor="0.55" dronebulletfactor="0.1" dronemissilefactor="0.1" minspeed="30" surfaceelementchance="0.15" surfaceelementfactor="0.5" shieldgeneratorchance="0.2" missilehitfactor="0.4" guidedmissilehitfactor="0.8" bullethitfactor="0.5" beamhitfactor="0.9"/>
-	<defence maneouverfactor="0.6" minspeed="150" maxsize="400.0" sizefactor="0.5" capshipfactor="1.35" countermeasurefactor="0.7" dronedistractionfactor="0.002" dronedamageamount="20000"/>
-  </lowattentioncombat>-->
+    <attack hitchance="0.8" missmultiplier="0.4" firingarea="36000000" laserweaponfactor="0.85" missileweaponfactor="1.0" turretfactor="0.9" moduleturretchance="0.5" dronebulletfactor="0.1" dronemissilefactor="0.182" minspeed="70" surfaceelementchance="0.2" surfaceelementfactor="0.8" shieldgeneratorchance="0.5" missilehitfactor="0.7" guidedmissilehitfactor="0.95" bullethitfactor="0.5" beamhitfactor="0.9" />
+    <defence maxspeed="600" minspeedfactor="0.05" maxspeedfactor="0.65" maxsize="50" sizefactor="0.00001" capshipfactor="1.15" countermeasurefactor="0.3" dronedistractionfactor="0.003" dronedamageamount="200000"/>
+  </lowattentioncombat>
+</replace>
+
+  <replace sel="//parameters/shipyardupgraderesources">
+    <shipyardupgraderesources>
+      <!-- large ships tend to have more turret and drone capacity, but relatively few front-mounted weapons -->
+      <factor countermeasure="200" drone="120" engine="40" missile="300" mine="200" satellite="200" navbeacon="50" resourceprobe="50" lasertower="200" scanner="20" shield="80" thruster="15" turret="101" weapon="12" />
+    </shipyardupgraderesources>
+  </replace>
+  <replace sel="//parameters/wharfupgraderesources">
+    <wharfupgraderesources>
+      <!-- fewer turrets and drone/missile capacity but a bit more weapons -->
+      <factor countermeasure="100" drone="20" engine="40" missile="100" mine="200" satellite="200" navbeacon="100" resourceprobe="100" lasertower="200" scanner="20" shield="55" thruster="15" turret="20" weapon="35" />
+    </wharfupgraderesources>
+  </replace>
+  
+  <replace sel="//parameters/shipupgraderesources">
+  <shipupgraderesources>
+    <!-- all ships use countermeasures,
+          some ships use drones,
+          not all ships use missiles, but those that do need lots of them.
+          deployables are very situational. don't stock up on a lot of them for general use. -->
+          <factor countermeasure="400" drone="120" missile="150" mine="5" satellite="4" navbeacon="5" resourceprobe="4" lasertower="4" scanner="0" engine="0" shield="0" thruster="0" turret="0" weapon="0"/>
+  </shipupgraderesources>
+</replace>
+
+</diff> 
