@@ -631,43 +631,43 @@
 			<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="0.0" qz="-0.0"/>
 		</offset>
 	</connection> -->
-			<connection group="enginegroup" name="con_shieldgen_m_enginegroup_2" tags="medium shield hittable">
+			<connection group="enginegroup" name="con_shieldgen_m_enginegroup_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-0.0" y="-14.000000000000002" z="-146.0"/>
 					<quaternion qw="-0.10973389752301974" qx="0.9939610011134277" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_5" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_5" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-15.5" y="-6.5" z="-31.0"/>
 					<quaternion qw="-0.02499372385725707" qx="0.9544335742368741" qy="-0.2972730506954018" qz="0.007784565975145422"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_6" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_6" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-17.0" y="28.999999999999996" z="-88.0"/>
 					<quaternion qw="-0.016678553441028667" qx="0.999062455205832" qy="-0.02410665701396677" qz="-0.031857582155910794"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_7" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_7" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-31.0" y="6.0" z="112.00000000000001"/>
 					<quaternion qw="-0.17075791149372582" qx="0.9590067903278491" qy="-0.19262074408022573" qz="0.11851143707405619"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_2" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_2" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="31.0" y="6.0" z="112.00000000000001"/>
 					<quaternion qw="-0.16740933143983494" qx="0.9595969013781146" qy="0.19303382757918483" qz="-0.11783821121570845"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_3" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="15.5" y="-6.5" z="-31.0"/>
 					<quaternion qw="-0.029163691157129672" qx="0.9545746825606104" qy="0.2964028352867913" qz="-0.009056145225925051"/>
 				</offset>
 			</connection>
-			<connection name="con_shieldgen_m_4" tags="medium shield hittable">
+			<connection name="con_shieldgen_m_4" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="17.0" y="28.999999999999996" z="-88.0"/>
 					<quaternion qw="-0.018199321996080677" qx="0.9990359046348677" qy="0.022980202413856475" qz="-0.032679599543025524"/>
@@ -741,7 +741,7 @@
 					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection group="top" name="con_shieldgen_m_top_3" tags="medium shield hittable">
+			<connection group="top" name="con_shieldgen_m_top_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-0.0" y="67.0" z="47.0"/>
 					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
@@ -777,13 +777,13 @@
 					<quaternion qw="-0.5082455075013964" qx="0.05734293363494815" qy="0.0451490342396395" qz="-0.8581141280587413"/>
 				</offset>
 			</connection>
-			<connection group="right-side-back" name="con_shieldgen_m_right-side-back_3" tags="medium shield hittable">
+			<connection group="right-side-back" name="con_shieldgen_m_right-side-back_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="20.7166" y="32.8225" z="-61.800399999999996"/>
 					<quaternion qw="-0.7432808348969683" qx="-0.01069765402617497" qy="0.00840305373164804" qz="0.6688411989113597"/>
 				</offset>
 			</connection>
-			<connection group="left-side-back" name="con_shieldgen_m_left-side-back_3" tags="medium shield hittable">
+			<connection group="left-side-back" name="con_shieldgen_m_left-side-back_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-20.7166" y="32.8225" z="-61.800399999999996"/>
 					<quaternion qw="-0.7432808348969683" qx="-0.01069765402617497" qy="-0.00840305373164804" qz="-0.6688411989113597"/>
@@ -813,13 +813,13 @@
 					<quaternion qw="-0.7719813364940177" qx="-0.13576801173483158" qy="0.6111915592107935" qz="-0.10980319232135254"/>
 				</offset>
 			</connection>
-			<connection group="right-side-front" name="con_shieldgen_m_right-side-front_3" tags="medium shield hittable">
+			<connection group="right-side-front" name="con_shieldgen_m_right-side-front_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="44.4825" y="19.1695" z="147.86870000000002"/>
 					<quaternion qw="-0.9591557121559474" qx="-0.004562260855268383" qy="0.010881195812174706" qz="0.2826324560134645"/>
 				</offset>
 			</connection>
-			<connection group="left-side-front" name="con_shieldgen_m_left-side-front_3" tags="medium shield hittable">
+			<connection group="left-side-front" name="con_shieldgen_m_left-side-front_3" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-44.4825" y="19.1695" z="147.86870000000002"/>
 					<quaternion qw="-0.9591557121559474" qx="-0.004562260855268383" qy="-0.010881195812174706" qz="-0.2826324560134645"/>

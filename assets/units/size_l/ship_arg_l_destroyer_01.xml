@@ -87,5 +87,6 @@
 	<replace sel="//connection[@name='con_shieldgen_009']/@tags">medium shield hittable vromainshield</replace>
 	<replace sel="//connection[@name='con_shieldgen_010']/@tags">medium shield hittable vromainshield</replace>
 	<replace sel="//connection[@name='con_shieldgenerator_l_01']/@tags">large shield hittable vromainshield</replace>
+	<replace sel="//connection[@name='con_shieldgenerator_l_02']/@tags">large shield hittable vromainshield</replace>
 	<replace sel="//connection[@name='con_shieldgenerator_l_003']/@tags">large shield hittable vromainshield</replace>
 </diff>

@@ -335,25 +335,25 @@
 					<rotation pitch="0" yaw="0" roll="127"/>
 				</offset>
 			</connection>
-			<connection group="left-bottom-back" name="con_shieldgen_m_left-bottom-back_1" tags="medium shield hittable">
+			<connection group="left-bottom-back" name="con_shieldgen_m_left-bottom-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-59" y="-26" z="-123"/>
 					<rotation pitch="0" yaw="0" roll="233"/>
 				</offset>
 			</connection>
-			<connection group="right-bottom-back" name="con_shieldgen_m_right-bottom-back_1" tags="medium shield hittable">
+			<connection group="right-bottom-back" name="con_shieldgen_m_right-bottom-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="59" y="-26" z="-123"/>
 					<rotation pitch="0" yaw="0" roll="127"/>
 				</offset>
 			</connection>
-			<connection group="left-top-back" name="con_shieldgen_m_left-top-back_1" tags="medium shield hittable">
+			<connection group="left-top-back" name="con_shieldgen_m_left-top-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-59" y="26" z="-123"/>
 					<rotation pitch="0" yaw="0" roll="307"/>
 				</offset>
 			</connection>
-			<connection group="right-top-back" name="con_shieldgen_m_right-top-back_1" tags="medium shield hittable">
+			<connection group="right-top-back" name="con_shieldgen_m_right-top-back_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="59" y="26" z="-123"/>
 					<rotation pitch="0" yaw="0" roll="53"/>
@@ -383,7 +383,7 @@
 					<rotation pitch="0" yaw="0" roll="53"/>
 				</offset>
 			</connection>
-			<connection group="left-mid" name="con_shieldgen_m_left-mid_1" tags="medium shield hittable">
+			<connection group="left-mid" name="con_shieldgen_m_left-mid_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-40.745" y="22" z="107.5"/>
 					<rotation pitch="0" yaw="0" roll="305"/>
@@ -401,7 +401,7 @@
 					<rotation pitch="0" yaw="0" roll="-90"/>
 				</offset>
 			</connection>
-			<connection group="left-mid2" name="con_shieldgen_m_left-mid2_1" tags="medium shield hittable">
+			<connection group="left-mid2" name="con_shieldgen_m_left-mid2_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-40.745" y="-22" z="107.5"/>
 					<rotation pitch="0" yaw="0" roll="235"/>
@@ -419,7 +419,7 @@
 					<rotation pitch="0" yaw="0" roll="-90"/>
 				</offset>
 			</connection>
-			<connection group="right-mid" name="con_shieldgen_m_right-mid_1" tags="medium shield hittable">
+			<connection group="right-mid" name="con_shieldgen_m_right-mid_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="40.745" y="22" z="107.5"/>
 					<rotation pitch="0" yaw="0" roll="55"/>
@@ -437,7 +437,7 @@
 					<rotation pitch="0" yaw="0" roll="90"/>
 				</offset>
 			</connection>
-			<connection group="right-mid2" name="con_shieldgen_m_right-mid2_1" tags="medium shield hittable">
+			<connection group="right-mid2" name="con_shieldgen_m_right-mid2_1" tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="40.745" y="-22" z="107.5"/>
 					<rotation pitch="0" yaw="0" roll="125"/>
@@ -456,7 +456,7 @@
 				</offset>
 			</connection>
 			<!--      ||| SHIELDS |||       -->
-			<connection name="con_shieldgen_l_1" tags="large shield hittable">
+			<connection name="con_shieldgen_l_1" tags="large shield hittable vromainshield">
 				<offset>
 					<position x="0" y="-26" z="7"/>
 					<rotation pitch="0" yaw="0" roll="180"/>
@@ -469,13 +469,13 @@
 					<quaternion qw="0.0" qx="0.0" qy="0.0" qz="0.0"/>
 				</offset>
 			</connection>
-			<connection group="group_back_up_mid " name="con_shieldgen_m_group_back_up_mid_1 " tags="medium shield hittable">
+			<connection group="group_back_up_mid " name="con_shieldgen_m_group_back_up_mid_1 " tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="-31.3" y="0.3" z="-209.1"/>
 					<rotation pitch="0" yaw="0" roll="90"/>
 				</offset>
 			</connection>
-			<connection group="group_back_up_mid " name="con_shieldgen_m_group_back_up_mid_2 " tags="medium shield hittable">
+			<connection group="group_back_up_mid " name="con_shieldgen_m_group_back_up_mid_2 " tags="medium shield hittable vromainshield">
 				<offset>
 					<position x="31.3" y="0.3" z="-209.1"/>
 					<rotation pitch="0" yaw="0" roll="-90"/>
